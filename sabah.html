@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="uz" data-theme="auto" data-page="sabah">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ertalabki azkorlar · Утренние азкары</title>
+<meta name="description" content="Qori bilan birga oʻqing: soʻzlar qiroat bilan yonadi · Читайте вместе с чтецом: слова подсвечиваются">
+<meta name="theme-color" content="#14254A">
+<meta name="color-scheme" content="light dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ertalabki" id="appTitle">
+<link rel="manifest" href="assets/sabah-uz.webmanifest" id="manifestLink">
+<link rel="icon" type="image/svg+xml" href="assets/icons/sabah.svg">
+<link rel="apple-touch-icon" href="assets/icons/sabah-180.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ertalabki azkorlar · Утренние азкары">
+<meta property="og:description" content="Qori bilan birga oʻqing: soʻzlar qiroat bilan yonadi · Читайте вместе с чтецом: слова подсвечиваются">
+<meta property="og:image" content="assets/og-sabah.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ertalabki azkorlar · Утренние азкары">
+<meta name="twitter:image" content="assets/og-sabah.png">
+<link rel="preload" href="assets/fonts/amiri-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<script>
+/* Pick language + theme before first paint (no flash) and point the install manifest at the right language. */
+(function () {
+  var d = document.documentElement, q = new URLSearchParams(location.search), L;
+  try { L = q.get("lang") || localStorage.getItem("azkor:lang"); } catch (e) {}
+  if (!/^(uz|uzc|ru)$/.test(L || "")) L = /^ru\b/i.test(navigator.language || "") ? "ru" : "uz";
+  d.lang = L === "ru" ? "ru" : (L === "uzc" ? "uz-Cyrl" : "uz-Latn"); d.dataset.lang = L;
+  try { d.dataset.theme = localStorage.getItem("azkor:theme") || "auto"; } catch (e) {}
+  var m = document.getElementById("manifestLink"); if (m) m.href = "assets/sabah-" + L + ".webmanifest";
+  var names = {"uz": "Ertalabki", "uzc": "Эрталабки", "ru": "Утренние"}; var t = document.getElementById("appTitle"); if (t) t.content = names[L];
+})();
+</script>
+<style>
+@font-face{font-family:"Amiri";src:url(assets/fonts/amiri-arabic.woff2) format("woff2");font-weight:400;font-display:swap;
+  unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+200C-200E,U+FB50-FDFF,U+FE70-FEFC}
+@font-face{font-family:"Inter";src:url(assets/fonts/inter-latin.woff2) format("woff2");font-weight:100 900;font-display:swap;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0307-0308,U+0323,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Inter";src:url(assets/fonts/inter-latin-ext.woff2) format("woff2");font-weight:100 900;font-display:swap;
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter";src:url(assets/fonts/inter-cyrillic.woff2) format("woff2");font-weight:100 900;font-display:swap;
+  unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Inter";src:url(assets/fonts/inter-cyrillic-ext.woff2) format("woff2");font-weight:100 900;font-display:swap;
+  unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:"Literata";src:url(assets/fonts/literata-latin.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0307-0308,U+0323,U+0329,U+2000-206F,U+20AC,U+2122,U+2212,U+FEFF,U+FFFD}
+@font-face{font-family:"Literata";src:url(assets/fonts/literata-latin-ext.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Literata";src:url(assets/fonts/literata-cyrillic.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Literata";src:url(assets/fonts/literata-cyrillic-ext.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+@font-face{font-family:"Literata";font-style:italic;src:url(assets/fonts/literata-latin-italic.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0307-0308,U+0323,U+0329,U+2000-206F,U+20AC,U+2122,U+2212,U+FEFF,U+FFFD}
+@font-face{font-family:"Literata";font-style:italic;src:url(assets/fonts/literata-latin-ext-italic.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Literata";font-style:italic;src:url(assets/fonts/literata-cyrillic-italic.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Literata";font-style:italic;src:url(assets/fonts/literata-cyrillic-ext-italic.woff2) format("woff2");font-weight:200 900;font-display:swap;
+  unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
+
+/* ============================================================== tokens
+   Rishtan porcelain + Samarkand lapis + ishkor turquoise + kundal gold. */
+:root{
+  --bg:#EEF2F2; --bg-2:#E3E9EA; --card:#FFFFFF; --ink:#16223A; --ink-2:#3B4860; --muted:#66717F;
+  --lapis:#1E3F78; --lapis-2:#2F5BA0; --teal:#0F7C7B; --gold:#B88A35; --gold-hi:#D9A944;
+  --gold-wash:rgba(217,169,68,.20); --line:rgba(30,63,120,.12); --line-2:rgba(30,63,120,.07);
+  --shadow:0 1px 1px rgba(22,34,58,.04),0 10px 30px -18px rgba(22,34,58,.35);
+  --dock:rgba(255,255,255,.86); --btn:#1E3F78; --seg-on:#FFFFFF; --now-ink:#0B6B6A;
+  --ar:"Amiri","Scheherazade New","Geeza Pro","Noto Naskh Arabic",serif;
+  --serif:"Literata",Georgia,"Times New Roman",serif;
+  --sans:"Inter",-apple-system,"Segoe UI",Roboto,system-ui,sans-serif;
+  --arscale:1; --sat:env(safe-area-inset-top,0px); --sab:env(safe-area-inset-bottom,0px);
+  --dock-h:calc(124px + var(--sab));
+}
+@media (prefers-color-scheme:dark){:root[data-theme="auto"]{
+  --bg:#0A1120; --bg-2:#0F1829; --card:#111B2E; --ink:#E8EDF5; --ink-2:#C2CCDA; --muted:#8E9BAD;
+  --lapis:#93B4EA; --lapis-2:#B4CCF2; --teal:#4CC3BF; --gold:#E3BE6A; --gold-hi:#F0CF83;
+  --gold-wash:rgba(227,190,106,.17); --line:rgba(147,180,234,.14); --line-2:rgba(147,180,234,.08);
+  --shadow:0 12px 30px -20px rgba(0,0,0,.85); --dock:rgba(14,22,38,.86); --btn:#2C559C; --seg-on:#22355A; --now-ink:#F2D287}}
+:root[data-theme="dark"]{
+  --bg:#0A1120; --bg-2:#0F1829; --card:#111B2E; --ink:#E8EDF5; --ink-2:#C2CCDA; --muted:#8E9BAD;
+  --lapis:#93B4EA; --lapis-2:#B4CCF2; --teal:#4CC3BF; --gold:#E3BE6A; --gold-hi:#F0CF83;
+  --gold-wash:rgba(227,190,106,.17); --line:rgba(147,180,234,.14); --line-2:rgba(147,180,234,.08);
+  --shadow:0 12px 30px -20px rgba(0,0,0,.85); --dock:rgba(14,22,38,.86); --btn:#2C559C; --seg-on:#22355A; --now-ink:#F2D287}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16.5px/1.62 var(--sans);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;padding-bottom:calc(var(--dock-h) + 12px);
+  -webkit-tap-highlight-color:transparent;font-feature-settings:"cv11","ss03"}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+a{color:var(--lapis-2)}
+:focus-visible{outline:2.5px solid var(--teal);outline-offset:3px;border-radius:8px}
+p{margin:0 0 .65em}p:last-child{margin-bottom:0}
+.wrap{width:min(100% - 28px,42rem);margin-inline:auto}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+svg.i{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+
+/* ============================================================== top bar */
+.bar{position:sticky;top:0;z-index:40;padding-top:var(--sat);
+  background:var(--bg);background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(1.4) blur(16px);
+  -webkit-backdrop-filter:saturate(1.4) blur(16px);border-bottom:1px solid var(--line-2)}
+.bar-in{display:flex;align-items:center;gap:8px;height:56px}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;min-width:0;text-decoration:none;color:inherit}
+.brand img{width:30px;height:30px;border-radius:8px;flex:none}
+.brand b{font:600 1.02rem/1.1 var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#brandShort{display:none}
+@media (max-width:440px){#brandName{display:none}#brandShort{display:block}}
+.seg{display:flex;padding:3px;border-radius:12px;background:var(--bg-2);gap:2px}
+.seg button{min-width:38px;height:30px;padding:0 9px;border-radius:9px;font:600 .8rem/1 var(--sans);color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--seg-on);color:var(--ink);box-shadow:0 1px 3px rgba(22,34,58,.15)}
+.iconbtn{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;color:var(--ink-2)}
+.iconbtn:active{background:var(--bg-2)}
+
+/* ============================================================== hero (sky) */
+.hero{position:relative;isolation:isolate;overflow:hidden;color:#FBF4E4;padding:30px 0 26px}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:var(--sky)}
+.hero::after{content:"";position:absolute;inset:auto 0 -40% 0;height:90%;z-index:-1;background:var(--sky-glow)}
+[data-page="sabah"]{--sky:linear-gradient(176deg,#13244A 0%,#24427A 38%,#6A5A8A 68%,#C98A73 88%,#EDB27E 100%);
+  --sky-glow:radial-gradient(60% 55% at 50% 100%,rgba(255,226,170,.85),rgba(255,214,150,0) 70%)}
+[data-page="masa"]{--sky:linear-gradient(176deg,#060B1A 0%,#141A3E 34%,#382A57 62%,#7B4762 84%,#C27756 100%);
+  --sky-glow:radial-gradient(60% 50% at 50% 100%,rgba(240,160,115,.55),rgba(240,160,115,0) 70%)}
+.hero .stars i{position:absolute;width:2px;height:2px;border-radius:50%;background:#FBF4E4;opacity:.75}
+.hero-grid{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:end}
+.hero .ar-t{font:400 1.5rem/1.2 var(--ar);direction:rtl;text-align:left;opacity:.9;margin-bottom:6px}
+.hero h1{margin:0;font:600 clamp(2rem,9vw,2.9rem)/1.02 var(--serif);letter-spacing:-.015em;text-wrap:balance}
+.hero .lead{margin:12px 0 0;font-size:.95rem;line-height:1.55;color:#F3E6CF;max-width:30rem;text-wrap:pretty}
+.when{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-size:.82rem;color:#FCE7C0;
+  padding:6px 12px;border-radius:999px;background:rgba(10,16,32,.38);border:1px solid rgba(255,232,190,.22)}
+.ring{width:84px;height:84px;position:relative;flex:none}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:5}
+.ring .tr{stroke:rgba(255,240,210,.22)}
+.ring .pr{stroke:#F0CF83;stroke-linecap:round;transition:stroke-dashoffset .5s var(--ease,ease)}
+.ring .v{position:absolute;inset:0;display:grid;place-items:center;text-align:center;line-height:1.05}
+.ring .v b{font:600 1.35rem/1 var(--serif)}
+.ring .v span{display:block;font-size:.68rem;color:#F3E6CF;margin-top:3px}
+.switch-hint{display:none;margin-top:12px;font-size:.85rem}
+.switch-hint.on{display:block}
+.switch-hint a{color:#FFE2A6;font-weight:600}
+
+/* ============================================================== rail */
+.rail{position:sticky;top:calc(56px + var(--sat));z-index:30;background:var(--bg);background:color-mix(in srgb,var(--bg) 90%,transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line-2)}
+.rail-in{display:flex;gap:6px;overflow-x:auto;padding:9px 14px;scrollbar-width:none;scroll-snap-type:x proximity}
+.rail-in::-webkit-scrollbar{display:none}
+.chip{flex:none;min-width:36px;height:34px;padding:0 6px;border-radius:10px;display:grid;place-items:center;
+  font:600 .82rem/1 var(--sans);color:var(--muted);background:var(--card);border:1px solid var(--line);
+  scroll-snap-align:center;font-variant-numeric:tabular-nums;position:relative}
+.chip.done{color:var(--teal);border-color:color-mix(in srgb,var(--teal) 45%,transparent);background:color-mix(in srgb,var(--teal) 9%,var(--card))}
+.chip.live{color:#fff;background:var(--btn);border-color:var(--btn)}
+.chip.noaudio::after{content:"";position:absolute;top:4px;right:4px;width:5px;height:5px;border-radius:50%;background:var(--muted);opacity:.5}
+
+/* ============================================================== cards */
+.list{display:grid;gap:16px;padding:18px 0 8px}
+.card{position:relative;background:var(--card);border-radius:20px;box-shadow:var(--shadow);border:1px solid var(--line-2);
+  scroll-margin-top:calc(116px + var(--sat));transition:box-shadow .35s,border-color .35s}
+.card.live{border-color:color-mix(in srgb,var(--gold) 55%,transparent);
+  box-shadow:0 0 0 3px var(--gold-wash),var(--shadow)}
+.card.done .num{background:var(--teal);color:#fff;border-color:var(--teal)}
+.head{display:flex;gap:12px;align-items:flex-start;padding:16px 18px 4px}
+.num{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);
+  font:600 .82rem/1 var(--sans);color:var(--gold);font-variant-numeric:tabular-nums;margin-top:1px}
+.head h2{flex:1;margin:0;font:600 1.08rem/1.3 var(--serif);letter-spacing:-.005em;text-wrap:balance}
+.times{flex:none;font:600 .74rem/1 var(--sans);color:var(--teal);padding:6px 9px;border-radius:999px;
+  background:color-mix(in srgb,var(--teal) 10%,transparent);margin-top:2px;white-space:nowrap}
+.live-tag{display:none;align-items:center;gap:6px;margin:6px 18px 0;font:600 .76rem/1 var(--sans);color:var(--gold)}
+.card.live .live-tag{display:flex}
+.eq{display:inline-flex;gap:2px;align-items:flex-end;height:11px}
+.eq i{width:2.5px;background:currentColor;border-radius:2px;animation:eq 1s ease-in-out infinite}
+.eq i:nth-child(2){animation-delay:-.35s}.eq i:nth-child(3){animation-delay:-.7s}
+@keyframes eq{0%,100%{height:3px}50%{height:11px}}
+body.paused .eq i{animation-play-state:paused}
+
+/* Arabic — the memorable thing: gold illumination sweeping through each word */
+.ar{direction:rtl;text-align:right;font:400 calc(clamp(1.65rem,6.4vw,2.1rem)*var(--arscale))/2.15 var(--ar);
+  padding:12px 18px 14px;color:var(--ink);word-spacing:.04em}
+.ar p{margin:0 0 .35em}.ar p:last-child{margin:0}
+.ar .bism{font-size:.8em;color:var(--ink-2)}
+/* Highlight never paints over the glyphs: the active word changes colour, and a gold bar beneath it
+   grows right-to-left as the word is recited. Harakat, shadda and tall letters stay fully visible. */
+.w{position:relative;cursor:pointer;transition:opacity .3s ease,color .2s ease}
+.card.live .w{opacity:.5}
+.card.live .w.past{opacity:1}
+.card.live .w.now{opacity:1;color:var(--now-ink)}
+.card.live .w.now::after{content:"";position:absolute;right:0;bottom:-.3em;height:.08em;min-height:3px;border-radius:3px;
+  width:calc(var(--p,0) * 100%);background:linear-gradient(to left,var(--gold-hi),var(--gold));pointer-events:none}
+body.nohl .card.live .w{opacity:1}
+body.nohl .card.live .w.now{color:inherit}body.nohl .card.live .w.now::after{display:none}
+
+.tl{padding:12px 18px;border-top:1px solid var(--line-2);font:italic 400 1.08rem/1.75 var(--serif);color:var(--lapis-2)}
+.mn{padding:12px 18px 16px;border-top:1px solid var(--line-2);font-size:1rem;line-height:1.66;color:var(--ink-2)}
+.saw{font-family:var(--ar);font-size:1.75em;line-height:0;vertical-align:-.2em;color:var(--gold);margin:0 .08em;font-style:normal;font-weight:400}
+.mn .src{display:block;margin-top:8px;font-size:.8rem;color:var(--muted)}
+body.no-tl .tl,body.no-mn .mn{display:none}
+
+/* counter row */
+.act{display:flex;align-items:center;gap:12px;padding:12px 14px 12px 18px;border-top:1px solid var(--line-2);
+  background:var(--card);background:color-mix(in srgb,var(--bg) 55%,var(--card));border-radius:0 0 20px 20px}
+.tap{flex:none;min-width:104px;height:48px;padding:0 18px;border-radius:14px;background:var(--btn);color:#fff;
+  font:650 1rem/1 var(--sans);font-variant-numeric:tabular-nums;display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  box-shadow:0 6px 16px -10px var(--btn);transition:transform .08s,background .25s}
+.tap:active{transform:scale(.95)}
+.tap.full{background:var(--teal);box-shadow:none}
+.beads{flex:1;display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
+.bead{width:10px;height:10px;border-radius:50%;background:var(--line);transition:background .15s,transform .15s}
+.bead.on{background:var(--gold);transform:scale(1.2)}
+.bar100{flex:1;height:7px;border-radius:9px;background:var(--line);overflow:hidden}
+.bar100 i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--teal));border-radius:9px;transition:width .15s}
+.more{display:flex;align-items:center;gap:4px}
+.more button{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;color:var(--muted)}
+.more button:active{background:var(--bg-2)}
+.more button[aria-pressed="true"]{color:var(--gold);background:var(--gold-wash)}
+.card.live .more [data-act="play"]{color:var(--gold);background:var(--gold-wash)}
+
+/* disclosure: virtue + explanation */
+details{border-top:1px solid var(--line-2)}
+.card>details:last-of-type{border-radius:0 0 20px 20px}
+summary{list-style:none;display:flex;align-items:center;gap:10px;padding:13px 18px;cursor:pointer;
+  font:600 .9rem/1.2 var(--sans);color:var(--lapis-2)}
+summary::-webkit-details-marker{display:none}
+summary .chev{transition:transform .2s;color:var(--gold);width:16px;height:16px}
+details[open] summary .chev{transform:rotate(90deg)}
+.inner{padding:0 18px 16px;font-size:.96rem;line-height:1.66;color:var(--ink-2)}
+.inner ul{margin:0;padding-left:1.1em}
+.inner li{margin:0 0 .55em}.inner li::marker{color:var(--gold)}
+.cite{display:block;margin-top:10px;padding-left:10px;border-left:2px solid var(--gold);font-size:.82rem;color:var(--muted)}
+.noaudio-note{margin:4px 0 2px;padding:14px 16px;border-radius:16px;border:1px dashed var(--line);
+  color:var(--muted);font-size:.92rem;text-align:center}
+.badge-na{display:inline-block;margin:6px 18px 0;font-size:.76rem;color:var(--muted)}
+
+/* end + footer */
+.end{margin-top:6px;padding:26px 20px;text-align:center;border-radius:20px;background:var(--card);border:1px solid var(--line-2)}
+.end .ar-sm{font:400 1.5rem/1.6 var(--ar);color:var(--gold)}
+.end h3{margin:4px 0 6px;font:600 1.12rem/1.3 var(--serif)}
+.end p{color:var(--muted);font-size:.93rem}
+.other{display:flex;align-items:center;gap:14px;margin-top:14px;padding:16px 18px;border-radius:20px;text-decoration:none;
+  color:#FBF4E4;background:var(--other-sky)}
+[data-page="sabah"] .other{--other-sky:linear-gradient(120deg,#0A1024,#2A2450 60%,#6E4260)}
+[data-page="masa"] .other{--other-sky:linear-gradient(120deg,#16284F,#3A5590 60%,#B98575)}
+.other img{width:46px;height:46px;border-radius:12px}
+.other b{display:block;font:600 1.1rem/1.2 var(--serif)}
+.other span{font-size:.84rem;opacity:.85}
+.foot{padding:26px 2px 8px;color:var(--muted);font-size:.84rem;line-height:1.7}
+.foot h4{margin:0 0 6px;font:600 .9rem/1.3 var(--sans);color:var(--ink-2)}
+.foot ul{margin:0 0 14px;padding-left:1.1em}
+.key{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0 0 16px}
+.key dt{font:italic 600 1rem/1.5 var(--serif);color:var(--lapis-2)}
+.key dd{margin:0}
+
+/* ============================================================== dock (audio) */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:0 0 var(--sab);
+  background:var(--dock);backdrop-filter:saturate(1.5) blur(20px);-webkit-backdrop-filter:saturate(1.5) blur(20px);
+  border-top:1px solid var(--line)}
+.seek{position:relative;height:22px;margin:0 14px;touch-action:none;cursor:pointer}
+.seek .track{position:absolute;left:0;right:0;top:9px;height:4px;border-radius:4px;background:var(--line)}
+.seek .fill{position:absolute;left:0;top:9px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--gold),var(--gold-hi));width:0}
+.seek .tick{position:absolute;top:7px;width:2px;height:8px;border-radius:2px;background:var(--muted);opacity:.35}
+.seek .knob{position:absolute;top:4px;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--gold-hi);
+  box-shadow:0 1px 4px rgba(0,0,0,.3);left:0}
+.dock-in{display:grid;grid-template-columns:1fr auto auto auto 1fr;align-items:center;gap:6px;padding:0 12px 8px}
+.dock-in .speed{justify-self:start}.dock-in .mode{justify-self:end}
+.play{flex:none;width:58px;height:58px;margin:0 8px;border-radius:50%;display:grid;place-items:center;color:#1A1405;
+  background:radial-gradient(circle at 35% 30%,#F6DC98,var(--gold-hi) 55%,var(--gold));box-shadow:0 8px 20px -10px var(--gold)}
+.play svg{width:24px;height:24px;fill:currentColor;stroke:none}
+.play:active{transform:scale(.95)}
+.np{display:flex;align-items:baseline;gap:10px;padding:0 18px 2px;min-width:0}
+.np .t{flex:1;min-width:0;font:600 .9rem/1.3 var(--serif);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.np .rep{flex:none;font:650 .76rem/1 var(--sans);color:var(--gold);font-variant-numeric:tabular-nums}
+.np .tm{flex:none;font:500 .74rem/1 var(--sans);color:var(--muted);font-variant-numeric:tabular-nums}
+.skip{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;color:var(--ink-2)}
+.skip:active{background:var(--bg-2)}
+.mode{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:64px;padding:5px 6px;border-radius:12px;
+  font:600 .66rem/1.1 var(--sans);color:var(--muted)}
+.mode[aria-pressed="true"]{color:var(--teal);background:color-mix(in srgb,var(--teal) 11%,transparent)}
+.speed{min-width:46px;height:34px;border-radius:9px;font:650 .78rem/1 var(--sans);color:var(--ink-2);background:var(--bg-2)}
+.pill{position:fixed;left:50%;bottom:calc(var(--dock-h) + 12px);z-index:45;transform:translate(-50%,20px);opacity:0;pointer-events:none;
+  display:flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;background:var(--btn);color:#fff;white-space:nowrap;
+  font:600 .86rem/1 var(--sans);box-shadow:0 10px 26px -12px rgba(0,0,0,.6);transition:opacity .25s,transform .25s}
+.pill.on{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+
+/* ============================================================== sheet (settings) */
+.scrim{position:fixed;inset:0;z-index:70;background:rgba(5,10,20,.45);opacity:0;pointer-events:none;transition:opacity .25s}
+.scrim.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:71;max-height:88vh;overflow:auto;background:var(--card);
+  border-radius:22px 22px 0 0;padding:8px 20px calc(24px + var(--sab));transform:translateY(105%);transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+.sheet.on{transform:none}
+.sheet .grab{width:40px;height:5px;border-radius:5px;background:var(--line);margin:4px auto 14px}
+.sheet h3{margin:0 0 14px;font:600 1.2rem/1.2 var(--serif)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 0;border-top:1px solid var(--line-2)}
+.row label,.row .lb{font-size:.96rem}
+.row small{display:block;color:var(--muted);font-size:.8rem;margin-top:2px}
+.sw{position:relative;width:50px;height:30px;flex:none}
+.sw input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.sw i{position:absolute;inset:0;border-radius:30px;background:var(--line);transition:background .2s}
+.sw i::after{content:"";position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .2s}
+.sw input:checked+i{background:var(--teal)}.sw input:checked+i::after{transform:translateX(20px)}
+.sizer{display:flex;align-items:center;gap:8px}
+.sizer button{width:38px;height:34px;border-radius:10px;background:var(--bg-2);font-weight:650}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:42px;padding:0 16px;border-radius:12px;
+  background:var(--btn);color:#fff;font:600 .9rem/1 var(--sans);flex:none}
+.btn.ghost{background:var(--bg-2);color:var(--ink)}
+.btn[disabled]{opacity:.6}
+.toast{position:fixed;left:50%;top:calc(70px + var(--sat));z-index:90;transform:translate(-50%,-10px);opacity:0;pointer-events:none;
+  padding:10px 16px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:.88rem;transition:all .25s;max-width:calc(100% - 32px)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.install{display:none;margin:14px 0 0;padding:12px 14px;border-radius:14px;background:var(--gold-wash);color:var(--ink);font-size:.88rem;
+  align-items:center;gap:10px}
+.install.on{display:flex}
+.install p{flex:1;margin:0}
+.install button{color:var(--muted)}
+
+@media (min-width:720px){
+  body{font-size:17px}
+  .dock-in,.seek,.np{max-width:44rem;margin-inline:auto}
+  .seek{margin-inline:auto;width:min(100% - 28px,44rem)}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation:none!important}html{scroll-behavior:auto}}
+@media print{.bar,.rail,.dock,.pill,.act .more,.hero .when{display:none}.card{break-inside:avoid;box-shadow:none}body{padding:0}}
+</style>
+</head>
+<body class="paused">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6.5" y="5" width="4" height="14" rx="1.3"/><rect x="13.5" y="5" width="4" height="14" rx="1.3"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="M18 6 10 12l8 6V6ZM6 6v12"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="m6 6 8 6-8 6V6Zm12 0v12"/></symbol>
+  <symbol id="i-follow" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/><circle cx="12" cy="12" r="7.5"/></symbol>
+  <symbol id="i-free" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-1.5V4a1.5 1.5 0 0 1 3 0v6.5m0-.5V6a1.5 1.5 0 0 1 3 0v7c0 4-2.5 7.5-6.5 7.5-2.6 0-4.2-1.3-5.6-3.4L4.6 13.2a1.5 1.5 0 0 1 2.4-1.8L8 13"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></symbol>
+  <symbol id="i-playline" viewBox="0 0 24 24"><path d="M8 5.8v12.4a.8.8 0 0 0 1.2.7l10-6.2a.8.8 0 0 0 0-1.4l-10-6.2a.8.8 0 0 0-1.2.7Z"/></symbol>
+  <symbol id="i-headph" viewBox="0 0 24 24"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="6.5" rx="1.6"/><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.6"/></symbol>
+  <symbol id="i-loop" viewBox="0 0 24 24"><path d="M17 2.5 20.5 6 17 9.5"/><path d="M3.5 11.5V10a4 4 0 0 1 4-4h13"/><path d="M7 21.5 3.5 18 7 14.5"/><path d="M20.5 12.5V14a4 4 0 0 1-4 4h-13"/></symbol>
+  <symbol id="i-reset" viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 1 0 2.5-6"/><path d="M3.5 3.5V8H8"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+</svg>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="#top" aria-label="top"><img src="assets/icons/sabah-64.png" alt="" width="30" height="30"><b id="brandName"></b><b id="brandShort"></b></a>
+    <div class="seg" role="group" aria-label="Til / Язык">
+      <button data-l="uz" aria-pressed="false">Oʻz</button><button data-l="uzc" aria-pressed="false">Ўз</button><button data-l="ru" aria-pressed="false">Ru</button>
+    </div>
+    <button class="iconbtn" id="openSettings" aria-label="Settings"><svg class="i"><use href="#i-gear"/></svg></button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="stars" aria-hidden="true" id="stars"></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="ar-t" lang="ar" dir="rtl">أَذْكَارُ الصَّبَاحِ</div>
+        <h1 id="heroTitle"></h1>
+      </div>
+      <div class="ring" aria-live="polite">
+        <svg viewBox="0 0 84 84"><circle class="tr" cx="42" cy="42" r="37"/><circle class="pr" id="ringPr" cx="42" cy="42" r="37" stroke-dasharray="232.5" stroke-dashoffset="232.5"/></svg>
+        <div class="v"><div><b id="ringNum">0</b><span id="ringLbl"></span></div></div>
+      </div>
+    </div>
+    <p class="lead" id="heroLead"></p>
+    <div class="when"><svg class="i" style="width:15px;height:15px"><use href="#i-headph"/></svg><span id="heroWhen"></span></div>
+    <div class="switch-hint" id="switchHint"></div>
+    <div class="install" id="installBox"><p id="installText"></p><button id="installGo" class="btn" hidden></button><button id="installX" aria-label="close"><svg class="i"><use href="#i-x"/></svg></button></div>
+  </div>
+</section>
+
+<nav class="rail" aria-label="Zikrlar"><div class="rail-in" id="rail"></div></nav>
+
+<main class="wrap">
+  <div class="list" id="list"></div>
+  <div class="end">
+    <div class="ar-sm" lang="ar" dir="rtl">تَقَبَّلَ اللّٰهُ مِنَّا وَمِنْكُمْ</div>
+    <h3 id="endTitle"></h3><p id="endText"></p>
+  </div>
+  <a class="other" href="masa.html" id="otherLink"><img src="assets/icons/masa-192.png" alt=""><div><b id="otherTitle"></b><span id="otherSub"></span></div></a>
+  <footer class="foot" id="foot"></footer>
+</main>
+
+<button class="pill" id="pill"><svg class="i" style="width:16px;height:16px"><use href="#i-down"/></svg><span id="pillText"></span></button>
+
+<div class="dock" id="dock">
+  <div class="seek" id="seek" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Audio">
+    <div class="track"></div><div id="ticks"></div><div class="fill" id="fill"></div><div class="knob" id="knob"></div>
+  </div>
+  <div class="np"><div class="t" id="nowT"></div><span class="rep" id="nowRep"></span><span class="tm" id="nowTime">0:00</span></div>
+  <div class="dock-in">
+    <button class="speed" id="speedBtn" aria-label="speed">1×</button>
+    <button class="skip" id="prevBtn" aria-label="previous"><svg class="i"><use href="#i-prev"/></svg></button>
+    <button class="play" id="playBtn" aria-label="Play"><svg><use href="#i-play" id="playIcon"/></svg></button>
+    <button class="skip" id="nextBtn" aria-label="next"><svg class="i"><use href="#i-next"/></svg></button>
+    <button class="mode" id="modeBtn" aria-pressed="true"><svg class="i"><use href="#i-follow" id="modeIcon"/></svg><span id="modeLbl"></span></button>
+  </div>
+</div>
+<audio id="audio" preload="metadata" src="assets/audio/sabah.m4a"></audio>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="setTitle">
+  <div class="grab"></div>
+  <h3 id="setTitle"></h3>
+  <div class="row"><div class="lb" id="sTheme"></div><div class="seg" id="themeSeg"><button data-t="auto"></button><button data-t="light"></button><button data-t="dark"></button></div></div>
+  <div class="row"><div class="lb" id="sSize"></div><div class="sizer"><button id="aMinus">A−</button><button id="aPlus">A+</button></div></div>
+  <div class="row"><label for="tTl" id="sTl"></label><span class="sw"><input type="checkbox" id="tTl"><i></i></span></div>
+  <div class="row"><label for="tMn" id="sMn"></label><span class="sw"><input type="checkbox" id="tMn"><i></i></span></div>
+  <div class="row"><label for="tHl" id="sHl"></label><span class="sw"><input type="checkbox" id="tHl"><i></i></span></div>
+  <div class="row"><label for="tAc" id="sAc"><span></span><small></small></label><span class="sw"><input type="checkbox" id="tAc"><i></i></span></div>
+  <div class="row"><div><div class="lb" id="sOff"></div><small id="sOffSub"></small></div><button class="btn" id="offBtn"></button></div>
+  <div class="row"><div class="lb" id="sInst"></div><button class="btn ghost" id="instBtn"></button></div>
+  <div class="row"><div class="lb" id="sReset"></div><button class="btn ghost" id="resetBtn"><svg class="i" style="width:16px;height:16px"><use href="#i-reset"/></svg></button></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script id="data" type="application/json">{"items":[{"n":1,"audio":true,"ar":["أَعُوْذُ بِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ.","بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ.","اَللّٰهُ لَآ إِلٰهَ إِلَّا هُوَ الْحَىُّ الْقَيُّوْمُ ، لَا تَأْخُذُهُۥ سِنَةٌ وَّلَا نَوْمٌ ، لَهُ مَا فِى السَّمٰـوٰتِ وَمَا فِى الْأَرْضِ ، مَنْ ذَا الَّذِىْ يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِۦ ، يَعْلَمُ مَا بَيْنَ أَيْدِيْهِمْ وَمَا خَلْفَهُمْ ، وَلَا يُحِيْطُوْنَ بِشَىْءٍ مِّنْ عِلْمِهِٓ إِلَّا بِمَا شَآءَ ، وَسِعَ كُرْسِيُّهُ السَّمٰـوٰتِ وَالْأَرْضَ ، وَلَا يَئُوْدُهُۥ حِفْظُهُمَا ، وَهُوَ الْعَلِىُّ الْعَظِيْمُ."],"uz":{"t":"Oyatul Kursiy — himoyaning eng kuchlisi","mn":"Quvilgan shaytondan Allohdan panoh soʻrayman.\nMehribon va rahmli Alloh nomi bilan.\n\nAlloh, Undan oʻzga iloh yoʻq. U tirikdir va qayyumdir. Uni mudroq ham, uyqu ham olmas. Osmonlaru yerdagi narsalar Unikidir. Uning huzurida Oʻzining iznisiz hech kim shafoat qila olmas. U ularning oldilaridagi narsani ham, ortlaridagi narsani ham bilur. Uning ilmidan hech narsani ihota qila olmaslar, magar Oʻzi xohlaganini, xolos. Uning kursisi osmonlaru yerni qamragan. U ularni muhofaza qilishdan charchamas. Va U Aliy va Aziym Zotdir. (Baqara, 255)","q":"Tarjima: Shayx Muhammad Sodiq Muhammad Yusuf rohimahulloh.","f":"Ubay ibn Kaʼb roziyallohu anhu xurmosi kamayib borayotganini sezib, bir kecha poyloqchilik qildi va jinni ushladi. Jin: «Sizni bizdan Baqara surasidagi Oyatul Kursiy himoya qiladi. Kim uni ertalab oʻqisa, kechgacha; kechqurun oʻqisa, tonggacha bizdan omonda boʻladi», dedi. Rasululloh ﷺ bu xabarni eshitib: «Yolgʻonchi rost aytibdi», dedilar.","m":"Hokim, «al-Mustadrak», 2064.","s":["«al-Ḥayy» (abadiy Tirik) va «al-Qoyyum» (borliqni tutib turuvchi) — koʻp ulamolar aynan shu ikkisini Allohning Ismi Aʼzami deb bilishgan.","«Uni mudroq ham, uyqu ham olmas» — bu tasalli: siz uxlayotganingizda ham ishlaringizni Tutib turuvchi Zot mudramaydi.","Rasululloh ﷺ: «Oyatul Kursiy oʻqilgan uydan shayton chiqib ketadi», dedilar. Shuning uchun azkorlar shu oyat bilan boshlanadi.","Uni kuniga oʻqish sunnat: har farz namozdan keyin, ertalab, kechqurun va uyquga yotishdan oldin."],"tr":"Aʼuzu billahi minash-shayṭonir-rojim.\nBismillahir-Roḥmanir-Roḥim.\nAllohu la ilaha illa Huwal-Ḥayyul-Qoyyum, la taʼxużuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-arḍ, man żallażi yashfaʼu ʼindahu illa bi-iżnih, yaʼlamu ma bayna aydihim wa ma xolfahum, wa la yuḥiṭuna bi-shayʼim-min ʼilmihi illa bima shaʼ, wasiʼa kursiyyuhus-samawati wal-arḍ, wa la yaʼuduhu ḥifẓuhuma, wa Huwal-ʼAliyyul-ʼAẓim."},"ru":{"t":"Аят аль-Курси — сильнейшая защита","tr":"Аʼузу билляхи минаш-шайтонир-роджим.\nБисмилляхир-Рохманир-Рохим.\nАллоху ля иляха илля Хувал-Ḥаййул-Qоййум, ля таʼхуżуху синатун ва ля наум, ляху ма фис-самавати ва ма филь-арḍ, ман żаллаżи яшфаʼу ʼиндаху илля би-иżних, яʼляму ма байна айдихим ва ма хольфахум, ва ля юḥитуна би-шайʼим-мин ʼильмихи илля бима шаʼ, васиʼа курсиййухус-самавати валь-арḍ, ва ля яʼудуху ḥифẓухума, ва Хувал-ʼАлиййул-ʼАẓим.","mn":"Прибегаю к Аллаху от изгнанного шайтана.\nВо имя Аллаха, Милостивого, Милосердного.\n\nАллах — нет божества, кроме Него, Живого, Вседержителя. Им не овладевают ни дремота, ни сон. Ему принадлежит то, что на небесах, и то, что на земле. Кто станет заступаться перед Ним без Его дозволения? Он знает их будущее и прошлое. Они постигают из Его знания только то, что Он пожелает. Его Престол (Подножие Трона) объемлет небеса и землю, и не тяготит Его оберегание их. Он — Возвышенный, Великий. (2:255)","q":"Перевод: Эльмир Кулиев.","f":"Убай ибн Каʼб (да будет доволен им Аллах) заметил, что запасы фиников в его сосуде убывают. Однажды ночью он подстерёг вора и поймал джинна. Джинн сказал: «От нас тебя защищает аят аль-Курси из суры «аль-Бакара». Кто прочтёт его утром — будет защищён от нас до вечера, а кто прочтёт вечером — до утра». Пророк ﷺ, услышав это, сказал: «Правду сказал лжец».","m":"аль-Хаким, «аль-Мустадрак», 2064.","s":["«аль-Ḥайй» (Вечно Живой) и «аль-Qоййум» (Поддерживающий бытие) — многие учёные считают именно эти два имени Величайшим именем Аллаха.","«Им не овладевают ни дремота, ни сон» — это утешение: пока вы спите, Тот, Кто управляет вашими делами, не дремлет.","Пророк ﷺ сказал: «Из дома, где читается аят аль-Курси, выходит шайтан». Поэтому азкары начинаются с него.","Его сунна читать несколько раз в день: после каждого обязательного намаза, утром, вечером и перед сном."]}},{"n":3,"audio":true,"ar":["بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ. قُلْ هُوَ اللّٰهُ أَحَدٌ ، اَللّٰهُ الصَّمَدُ ، لَمْ يَلِدْ وَلَمْ يُوْلَدْ ، وَلَمْ يَكُنْ لَّهُ كُفُوًا أَحَدٌ.","بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ. قُلْ أَعُوْذُ بِرَبِّ الْفَلَقِ ، مِنْ شَرِّ مَا خَلَقَ ، وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ، وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ.","بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ. قُلْ أَعُوْذُ بِرَبِّ النَّاسِ ، مَلِكِ النَّاسِ ، إِلٰهِ النَّاسِ ، مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ، اَلَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِ ، مِنَ الْجِنَّةِ وَالنَّاسِ."],"uz":{"t":"Uch Qul — har ishingizga kifoya qiladi","mn":"Mehribon va rahmli Alloh nomi bilan.\nAyt: «U Alloh yagonadir. Alloh — Somaddir. U tugʻmagan va tugʻilmagan. Va Unga hech kim teng boʻlmagan». (Ixlos)\n\nMehribon va rahmli Alloh nomi bilan.\nAyt: «Tong Robbisidan panoh soʻrayman. U yaratgan narsalar yomonligidan. Va kirib kelgan qorongʻu kechaning yomonligidan. Va tugunlarga dam soluvchilar yomonligidan. Va hasad qilgan hasadchining yomonligidan». (Falaq)\n\nMehribon va rahmli Alloh nomi bilan.\nAyt: «Odamlar Robbisidan, odamlar podshohidan, odamlar Ilohidan panoh soʻrayman. Berkinib, koʻrinib turuvchi vasvasachining — odamlar qalblariga vasvasa soladiganning — jinlar va odamlardan boʻlganning yomonligidan». (Nos)","q":"Tarjima: Shayx Muhammad Sodiq Muhammad Yusuf rohimahulloh.","f":"Abdulloh ibn Xubayb roziyallohu anhu aytadi: yomgʻirli, qop-qorongʻi kechada Rasululloh ﷺ menga: «Ixlos va Muavvizatayn (Falaq va Nos) suralarini ertalab va kechqurun uch martadan oʻqi — u senga hamma narsada kifoya qiladi», dedilar.","m":"Termiziy, 3575.","s":["Tartibi bejiz emas: avval Ixlos bilan Allohni tanib madh etamiz, soʻng qolgan ikkisi bilan panoh soʻraymiz. Duoning odobi shu.","Ixlos — Allohning toʻliq taʼrifi. «Aḥad» — yagona, «Ṣomad» — hamma Unga muhtoj, Oʻzi hech kimga muhtoj emas.","Falaq bilan tashqi yomonlikdan (yaratiqlar, tun, sehr, hasad), Nos bilan ichki yomonlikdan — qalbga tashlanadigan vasvasadan panoh soʻraymiz.","Ibnul Qoyyim rohimahulloh: bandaning bu suralar bilan panoh soʻrashga ehtiyoji yeb-ichishga boʻlgan ehtiyojidan kattaroqdir."],"tr":"Bismillahir-Roḥmanir-Roḥim. Qul Huwallohu aḥad. Allohuṣ-Ṣomad. Lam yalid wa lam yulad. Wa lam yakullahu kufuwan aḥad.\n\nBismillahir-Roḥmanir-Roḥim. Qul aʼuzu bi-Robbil-falaq. Min sharri ma xolaq. Wa min sharri gʻosiqin iza waqob. Wa min sharrin-naffaṡati fil-ʼuqod. Wa min sharri ḥasidin iza ḥasad.\n\nBismillahir-Roḥmanir-Roḥim. Qul aʼuzu bi-Robbin-nas. Malikin-nas. Ilahin-nas. Min sharril-waswasil-xonnas. Allazi yuwaswisu fi ṣudurin-nas. Minal-jinnati wan-nas."},"ru":{"t":"Три «Куль» — довольно тебе во всём","tr":"Бисмилляхир-Рохманир-Рохим. Qуль Хуваллоху аḥад. Аллохуṣ-Ṣомад. Лям ялид ва лям юляд. Ва лям якуллаху куфуван аḥад.\n\nБисмилляхир-Рохманир-Рохим. Qуль аʼузу би-Роббиль-фаляq. Мин шарри ма холяq. Ва мин шарри ġосиqин иза ваqоб. Ва мин шаррин-наффаṡати филь-ʼуqод. Ва мин шарри ḥасидин иза ḥасад.\n\nБисмилляхир-Рохманир-Рохим. Qуль аʼузу би-Роббин-нас. Маликин-нас. Иляхин-нас. Мин шарриль-васвасиль-хоннас. Аллази ювасвису фи ṣудурин-нас. Миналь-джиннати ван-нас.","mn":"Во имя Аллаха, Милостивого, Милосердного.\nСкажи: «Он — Аллах Единый, Аллах Самодостаточный. Он не родил и не был рождён, и нет никого равного Ему». (Сура «аль-Ихлас»)\n\nВо имя Аллаха, Милостивого, Милосердного.\nСкажи: «Прибегаю к защите Господа рассвета от зла того, что Он сотворил, от зла мрака, когда он наступает, от зла колдуний, поплёвывающих на узлы, от зла завистника, когда он завидует». (Сура «аль-Фаляк»)\n\nВо имя Аллаха, Милостивого, Милосердного.\nСкажи: «Прибегаю к защите Господа людей, Царя людей, Бога людей, от зла искусителя отступающего при поминании Аллаха, который наущает в груди людей, и бывает из джиннов и людей». (Сура «ан-Нас»)","q":"Перевод: Эльмир Кулиев.","f":"Абдуллах ибн Хубайб (да будет доволен им Аллах) рассказывал: в дождливую и очень тёмную ночь мы искали Пророка ﷺ. Он сказал мне: «Читай суру «аль-Ихлас» и «аль-Муʼаввизатайн» (суры «аль-Фаляк» и «ан-Нас») по три раза утром и вечером — этого будет достаточно тебе во всём».","m":"ат-Тирмизи, 3575.","s":["Порядок не случаен: сначала сурой «аль-Ихлас» мы познаём Аллаха и восхваляем Его, затем двумя другими просим защиты. Таков адаб дуа.","«аль-Ихлас» — полное описание Аллаха. «Аḥад» — Единственный, «Ṣомад» — Самодостаточный, в Ком нуждаются все, а Он не нуждается ни в ком.","Сурой «аль-Фаляк» просим защиты от внешнего зла (творения, ночь, колдовство, зависть), а сурой «ан-Нас» — от внутреннего: наущений в сердце.","Ибн аль-Каййим сказал: нужда раба в защите этими сурами больше, чем его нужда в еде и питье."]}},{"n":10,"audio":true,"ar":["لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ ، يُحْيِيْ وَيُمِيْتُ ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيْرٌ."],"uz":{"t":"Tavhid kalimasi — oʻn marta","mn":"Allohdan oʻzga ibodatga loyiq iloh yoʻq. U yakka-yolgʻiz, sherigi yoʻq. Mulk Unikidir, hamd ham Unikidir. U tiriltiradi va oʻldiradi. U har narsaga Qodirdir.","q":"","f":"Rasululloh ﷺ: «Kim ertalab buni oʻn marta aytsa, unga oʻn yaxshilik yoziladi, oʻn gunohi oʻchiriladi, oʻn daraja koʻtariladi va u kech kirguncha shaytondan saqlangan boʻladi», dedilar.","m":"Nasoiy, «Amalul-yavm val-layla», 24; Ahmad, 23590.","s":["Kunni tavhid kalimasi bilan boshlash — imonni yangilashdir.","«Yuḥyi wa yumit» — tiriltiradi va oʻldiradi. Tong yangi hayot, uyqu esa kichik oʻlim edi; siz aynan buni tasdiqlab uygʻondingiz.","«Mulk Unikidir» — bugun kimdandir umid qilsangiz, avval buni eslang: mulk allaqachon Egasi qoʻlida.","Oʻn marta aytish — bir daqiqa vaqt, evaziga oʻn daraja va kun boʻyi himoya."],"tr":"La ilaha illalloh, waḥdahu la sharika lah, lahul-mulku wa lahul-ḥamd, yuḥyi wa yumit, wa Huwa ʼala kulli shayʼin Qodir."},"ru":{"t":"Слово единобожия — десять раз","tr":"Ля иляха илляллоху, ваḥдаху ля шарика лях, ляхуль-мульку ва ляхуль-ḥамд, юḥйи ва юмит, ва Хува ʼаля кулли шайʼин Qодир.","mn":"Нет божества, достойного поклонения, кроме Аллаха, Единственного, у Которого нет сотоварища. Ему принадлежит владычество, Ему хвала. Он оживляет и умерщвляет, и Он над всякой вещью мощен.","q":"","f":"Пророк ﷺ сказал: «Кто скажет это утром десять раз, тому запишут десять благодеяний, сотрут десять грехов, поднимут на десять степеней, и он будет защищён от шайтана до вечера».","m":"ан-Насаи, «Амаль аль-йаум ва-ль-лейля», 24; Ахмад, 23590.","s":["Начинать день со слова единобожия — значит обновлять веру.","«Юḥйи ва юмит» — оживляет и умерщвляет. Сон был малой смертью; проснувшись, вы подтверждаете именно это.","«Ему принадлежит владычество» — если сегодня на кого-то надеетесь, сначала вспомните: власть уже в руках её Владельца.","Десять раз — минута времени, а взамен десять степеней и защита на весь день."]}},{"n":7,"audio":true,"ar":["حَسْبِيَ اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ ، عَلَيْهِ تَوَكَّلْتُ ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ."],"uz":{"t":"Alloh menga kifoya — yetti marta","mn":"Menga Alloh kifoya. Undan oʻzga iloh yoʻq. Men faqat Unga tavakkul qildim. U — ulugʻ Arshning Robbidir.","q":"","f":"Rasululloh ﷺ: «Kim ertalab va kechqurun buni yetti marta aytsa, dunyo va oxirat ishlaridan tashvishga solgan narsasiga Alloh kifoya qiladi», dedilar.","m":"Abu Dovud, 5081 (mavquf) va Ibn Sunniy, 71 (marfuʼ).","s":["«Ḥasbiy» — «menga yetadi». Bu — hisob-kitobni Allohga topshirish.","Tavakkul — qoʻl qovushtirib oʻtirish emas; sabab qilib, natijani Allohga topshirishdir.","Duo «ulugʻ Arshning Robbi» bilan tugaydi: eng ulkan maxluqni boshqargan Zot bugungi tashvishingizni yengib qoʻymaydimi?","Uydan chiqishdan oldin ayting — kun davomidagi noaniqlik yukini oʻzingizdan olib tashlaysiz."],"tr":"Ḥasbiyallohu la ilaha illa Hu, ʼalayhi tawakkaltu, wa Huwa Robbul-ʼArshil-ʼAẓim."},"ru":{"t":"Аллах мне достаточен — семь раз","tr":"Ḥасбияллоху ля иляха илля Ху, ʼаляйхи таваккальту, ва Хува Роббуль-ʼАршиль-ʼАẓим.","mn":"Довольно мне Аллаха. Нет божества, кроме Него. На Него я уповаю, и Он — Господь великого Трона.","q":"","f":"Пророк ﷺ сказал: «Кто скажет это утром и вечером семь раз, тому Аллах будет достаточен во всём, что заботит его из дел этого мира и Последней жизни».","m":"Абу Дауд, 5081 (маукуф); Ибн ас-Сунни, 71 (марфуʼ).","s":["«Ḥасбий» — «мне достаточно». Это передача итога дел Аллаху.","Таваккуль — не бездействие; это принятие причин с передачей результата Аллаху.","Дуа завершается словами «Господь великого Трона»: разве Тот, Кто управляет величайшим творением, не одолеет вашу сегодняшнюю заботу?","Скажите это перед выходом из дома — и снимете с себя груз неизвестности предстоящего дня."]}},{"n":3,"audio":true,"ar":["بِسْمِ اللّٰهِ الَّذِيْ لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ ، وَهُوَ السَّمِيْعُ الْعَلِيْمُ."],"uz":{"t":"Alloh nomi bilan — hech narsa zarar yetkaza olmaydi","mn":"Uning nomi bilan yerda ham, osmonda ham hech narsa zarar yetkaza olmaydigan Alloh nomi bilan. U — hamma narsani Eshituvchi, Bilguvchidir.","q":"","f":"Rasululloh ﷺ: «Kim ertalab va kechqurun buni uch marta aytsa, unga hech narsa zarar yetkazmaydi», dedilar.","m":"Abu Dovud, 5088; Termiziy, 3388; Ibn Moja, 3869.","s":["Diqqat qiling: duo «zarar boʻlmaydi» demaydi — «Uning nomi bilan zarar yetkaza olmaydi» deydi. Himoya narsalarda emas, Allohning ismida.","«Yerda ham, osmonda ham» — barcha yoʻnalish qamrab olingan.","«as-Samiʼ» — shivirlaganingizni eshitadi; «al-ʼAlim» — hali kelmagan xavfni ham biladi.","Qisqa va kuchli — bolalarga birinchi yodlatiladigan duolardan biri."],"tr":"Bismillahillazi la yaḍurru maʼasmihi shayʼun fil-arḍi wa la fis-samaʼi, wa Huwas-Samiʼul-ʼAlim."},"ru":{"t":"С именем Аллаха — ничто не навредит","tr":"Бисмилляхиллязи ля яḍурру маʼасмихи шайʼун филь-арḍи ва ля фис-самаʼи, ва Хувас-Самиʼуль-ʼАлим.","mn":"С именем Аллаха, с именем Которого ничто не причинит вреда ни на земле, ни на небе. Он — Всеслышащий, Всезнающий.","q":"","f":"Пророк ﷺ сказал: «Кто скажет это утром и вечером три раза, тому ничто не причинит вреда».","m":"Абу Дауд, 5088; ат-Тирмизи, 3388; Ибн Маджа, 3869.","s":["Заметьте: дуа не говорит «вреда не будет» — оно говорит «с Его именем ничто не навредит». Защита не в вещах, а в имени Аллаха.","«Ни на земле, ни на небе» — охвачены все направления.","«ас-Самиʼ» — Он слышит ваш шёпот; «аль-ʼАлим» — Он знает опасность, которая ещё не пришла.","Коротко и сильно — одно из первых дуа, которым учат детей."]}},{"n":3,"audio":true,"ar":["أَعُوْذُ بِكَلِمَاتِ اللّٰهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ."],"uz":{"t":"Allohning mukammal kalimalari bilan panoh","mn":"Alloh yaratgan narsalarning yomonligidan Uning mukammal kalimalari bilan panoh soʻrayman.","q":"","f":"Rasululloh ﷺ: «Kim biror manzilga tushib buni aytsa, oʻsha yerdan ketguniga qadar hech narsa unga zarar yetkazmaydi», dedilar.","m":"Muslim, 2708.","s":["«Tammat» — mukammal, kam-koʻstsiz. Allohning soʻzi hech qachon yolgʻon chiqmaydi.","Allohning kalimalari bilan panoh soʻrash — Uning sifati bilan panoh soʻrash; bu maxluqqa emas, Xoliqqa murojaat.","«Yaratgan narsalari» — istisnosiz hammasi Uning nazorati ostida.","Safarda, notanish joyda va uydan chiqishda ham aytiladi."],"tr":"Aʼuzu bi-kalimatillahit-tammati min sharri ma xolaq."},"ru":{"t":"Защита совершенными словами Аллаха","tr":"Аʼузу би-калиматилляхит-таммати мин шарри ма холяq.","mn":"Прибегаю к совершенным словам Аллаха от зла того, что Он сотворил.","q":"","f":"Пророк ﷺ сказал: «Кто остановится где-либо и скажет это, тому ничто не навредит, пока он не покинет то место».","m":"Муслим, 2708.","s":["«Таммат» — совершенные, без изъяна. Слово Аллаха никогда не окажется ложью и никогда не будет слабым.","Прибегать к словам Аллаха — значит прибегать к Его атрибуту; это обращение не к творению, а к Творцу.","«Того, что Он сотворил» — без исключения всё под Его надзором.","Читается в пути, в незнакомом месте и при выходе из дома."]}},{"n":3,"audio":true,"ar":["رَضِيْتُ بِاللّٰهِ رَبًّا ، وَبِالْإِسْلَامِ دِيْنًا ، وَبِمُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا."],"uz":{"t":"Rozilik kalimasi","mn":"Men Allohning Robb ekaniga, Islomning din ekaniga va Muhammad ﷺ ning paygʻambar ekaniga rozi boʻldim.","q":"","f":"Rasululloh ﷺ: «Kim ertalab va kechqurun buni uch marta aytsa, Qiyomat kuni Alloh uni rozi qilishi haq boʻladi», dedilar.","m":"Abu Dovud, 5072; Termiziy, 3389; Ibn Moja, 3870.","s":["Uch narsani qamrab oladi: Kimga ibodat qilaman? Qaysi yoʻl bilan? Kimga ergashib?","«Rozi boʻldim» — koʻnikish emas, tanlash. Boshqa yoʻllarni koʻrib, ongli ravishda shuni tanladingiz.","Savob ham shu soʻz bilan qaytariladi: siz Undan rozi boʻldingiz — U ham sizdan rozi boʻlishga oʻzini haq qildi.","Rasululloh ﷺ: «Kim buni aytsa, imonning taʼmini tatib koʻrgan boʻladi» (Muslim, 34)."],"tr":"Roḍitu billahi Robban, wa bil-Islami dinan, wa bi-Muḥammadin sollallohu alayhi wa sallama nabiyya."},"ru":{"t":"Слово довольства","tr":"Роḍиту билляхи Роббан, ва биль-Ислями динан, ва би-Муḥаммадин соллаллоху ʼаляйхи ва салляма набийя.","mn":"Я доволен Аллахом как Господом, Исламом как религией и Мухаммадом ﷺ как пророком.","q":"","f":"Пророк ﷺ сказал: «Кто скажет это утром и вечером три раза, того Аллах непременно сделает довольным в День воскресения».","m":"Абу Дауд, 5072; ат-Тирмизи, 3389; Ибн Маджа, 3870.","s":["Оно охватывает три вопроса: Кому поклоняюсь? Каким путём? За кем следуя?","«Я доволен» — не смирение поневоле, а выбор. Вы говорите, что, увидев другие пути, сознательно избрали этот.","Награда возвращается тем же словом: вы стали довольны Им — и Он обязал Себя сделать вас довольными.","Пророк ﷺ сказал: «Кто скажет это, тот вкусит сладость веры» (Муслим, 34)."]}},{"n":4,"audio":true,"ar":["اَللّٰهُمَّ إِنِّيْ أَصْبَحْتُ أُشْهِدُكَ ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ وَمَلَائِكَتَكَ وَجَمِيْعَ خَلْقِكَ ، أَنَّكَ أَنْتَ اللّٰهُ لَا إِلٰهَ إِلَّا أَنْتَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُوْلُكَ."],"uz":{"t":"Doʻzaxdan ozod boʻlish — toʻrt marta","mn":"Ey Alloh, men tongni Seni guvoh qilib qarshiladim; Arshingni koʻtaruvchi farishtalarni, barcha farishtalaringni va butun xalqingni guvoh qilaman: Sen — Allohsan, Sendan oʻzga iloh yoʻq, Sen yakka-yolgʻizsan, sheriging yoʻq; Muhammad esa Sening banding va elchingdir.","q":"","f":"Rasululloh ﷺ: «Kim buni bir marta aytsa, Alloh uning toʻrtdan birini doʻzaxdan ozod qiladi; ikki marta — yarmini; uch marta — toʻrtdan uchini; toʻrt marta aytsa, uni doʻzaxdan butunlay ozod qiladi», dedilar.","m":"Abu Dovud, 5069.","s":["Bu duoda Allohdan hech narsa soʻralmaydi — faqat shahodat aytiladi. Demak, shahodatning oʻzi eng katta talab.","Guvohlikni Allohning Oʻziga, Arsh koʻtaruvchi farishtalarga va butun xalqqa qaratasiz; ular Qiyomat kuni siz uchun guvohlik beradi.","Muhammad ﷺ avval «banda», keyin «elchi» deb atalgan — bandalik eng oliy maqom.","Toʻrt marta shoshmasdan, maʼnosini his qilib ayting; har safar guvohlikning ulushi ortadi."],"tr":"Allohumma inni asbaḥtu ush-hiduk, wa ush-hidu ḥamalata ʼarshik, wa malaʼikataka wa jamiʼa xolqik, annaka Antalloh, la ilaha illa Anta waḥdaka la sharika lak, wa anna Muḥammadan ʼabduka wa rosuluk."},"ru":{"t":"Освобождение от Огня — четыре раза","tr":"Аллохумма инни аṣбаḥту уш-хидук, ва уш-хиду ḥамалята ʼаршик, ва маляʼикатака ва джамиʼа хольqик, аннака Анталлоху, ля иляха илля Анта ваḥдака ля шарика лак, ва анна Муḥаммадан ʼабдука ва росулюк.","mn":"О Аллах, я встретил утро, призывая в свидетели Тебя, носителей Твоего Трона, Твоих ангелов и всё Твоё творение, что Ты — Аллах, нет божества, кроме Тебя одного, у Тебя нет сотоварища, и что Мухаммад — Твой раб и посланник.","q":"","f":"Пророк ﷺ сказал: «Кто скажет это один раз, Аллах освободит от Огня четверть его; кто скажет дважды — половину; трижды — три четверти; а кто скажет четыре раза, того Аллах полностью освободит от Огня».","m":"Абу Дауд, 5069.","s":["В этом дуа у Аллаха ничего не просят — лишь свидетельствуют. Значит, само свидетельство — величайшая просьба.","Вы обращаете свидетельство к Самому Аллаху, к ангелам-носителям Трона и ко всему творению; они засвидетельствуют за вас в День суда.","Мухаммад ﷺ назван сначала «рабом», затем «посланником» — рабство есть высшая степень.","Четыре раза — не спеша, ощущая смысл; с каждым разом доля свидетельства растёт."]}},{"n":3,"audio":true,"ar":["أَصْبَحْتُ أُثْنِيْ عَلَيْكَ حَمْدًا ، وَأَشْهَدُ أَنْ لَّا إِلٰهَ إِلَّا اللّٰهُ."],"uz":{"t":"Tongni hamd bilan boshlash","mn":"Men tongni Senga hamd aytib qarshiladim va guvohlik beramanki, Allohdan oʻzga iloh yoʻq.","q":"","f":"Abu Hurayra roziyallohu anhu rivoyat qiladi: Rasululloh ﷺ: «Biringiz tongni qarshilaganida buni uch marta aytsin; kechqurunga kirganida ham shunday aytsin», dedilar.","m":"Nasoiy, «as-Sunanul-kubro», 10331.","s":["Kunni boshlashning hamddan yaxshiroq yoʻli yoʻq. Birinchi ogʻiz soʻzingiz shikoyat emas, maqtov boʻlsin.","«Ḥamd» ikki narsani oʻz ichiga oladi: bergani uchun shukr va Oʻzi shunday Zot boʻlgani uchun maqtov.","Bu zikr koʻp toʻplamlarga kirmagani uchun kam maʼlum, ammo sanadi sahih — unutilgan sunnatni tiklaysiz.","Har takrorda Allohning maqtovga loyiq boshqa sababini eslang."],"tr":"Asbaḥtu uṡni ʼalayka ḥamdan, wa ash-hadu al-la ilaha illalloh."},"ru":{"t":"Начать утро с восхваления","tr":"Аṣбаḥту уṡни ʼаляйка ḥамдан, ва аш-хаду ал-ля иляха илляллох.","mn":"Я встретил утро, вознося Тебе хвалу, и свидетельствую, что нет божества, кроме Аллаха.","q":"","f":"Абу Хурайра (да будет доволен им Аллах) передал, что Пророк ﷺ сказал: «Пусть один из вас, встречая утро, скажет это трижды; и то же самое — встречая вечер».","m":"ан-Насаи, «ас-Сунан аль-кубра», 10331.","s":["Нет лучшего начала дня, чем восхваление Аллаха. Пусть первым словом будет не жалоба, а хвала.","«Ḥамд» включает и благодарность за дарованное, и восхваление Его за то, каков Он Сам.","Этот зикр малоизвестен, так как редко встречается в сборниках, но его иснад достоверен — вы оживляете забытую сунну.","С каждым повтором вспоминайте новую причину, по которой Он достоин хвалы."]}},{"n":1,"audio":true,"ar":["أَصْبَحْنَا عَلَىٰ فِطْرَةِ الْإِسْلَامِ ، وَعَلَىٰ كَلِمَةِ الْإِخْلَاصِ ، وَعَلَىٰ دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ ، وَعَلَىٰ مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُّسْلِمًا وَّمَا كَانَ مِنَ الْمُشْرِكِيْنَ."],"uz":{"t":"Islom fitrati ustida uygʻonish","mn":"Biz tongni Islom fitrati ustida, ixlos kalimasi ustida, Paygʻambarimiz Muhammad ﷺ ning dini ustida va otamiz Ibrohimning — botildan yuz oʻgirib, Allohga taslim boʻlgan va mushriklardan boʻlmagan zotning millati ustida qarshiladik.","q":"","f":"Abdurahmon ibn Abzo roziyallohu anhu rivoyat qiladi: Rasululloh ﷺ tongda shu duoni aytar edilar.","m":"Ahmad, 15360.","s":["«Fitrat» — inson tugʻilganda beriladigan sof tabiat. Islom unga qarshi emas, aynan unga mos.","Shu sababli gunohga qarab ketish oʻz tabiatingizga qarshi borishdir — shuning uchun ham qalbni bezovta qiladi.","«Ixlos kalimasi» — la ilaha illalloh. Aytganingizda eʼtiqodingizni shirkdan tozalaysiz.","Ibrohim alayhissalom — tavhid imomi; biz bu yoʻlning birinchi yoʻlovchisi emasmiz."],"tr":"Asbaḥna ʼala fiṭrotil-Islam, wa ʼala kalimatil-ixloṣ, wa ʼala dini Nabiyyina Muḥammadin sollallohu alayhi wa sallam, wa ʼala millati abina Ibrohima ḥanifam-muslima, wa ma kana minal-mushrikin."},"ru":{"t":"Пробуждение на естестве Ислама","tr":"Аṣбаḥна ʼаля фиṭротиль-Ислям, ва ʼаля калиматиль-ихляṣ, ва ʼаля дини Набиййина Муḥаммадин соллаллоху ʼаляйхи ва саллям, ва ʼаля милляти абина Иброхима ḥанифам-муслима, ва ма кана миналь-мушрикин.","mn":"Мы встретили утро на естестве (фитре) Ислама, на слове искренности, на религии нашего Пророка Мухаммада ﷺ и на общине отца нашего Ибрахима, который был ханифом, покорившимся Аллаху, и не был из многобожников.","q":"","f":"Абдуррахман ибн Абза (да будет доволен им Аллах) передал, что Пророк ﷺ говорил это утром.","m":"Ахмад, 15360.","s":["«Фитра» — чистое естество, данное человеку при рождении. Ислам не противоречит ему, а полностью ему соответствует.","Поэтому уход в грех — это движение против собственной природы; оттого он и тревожит сердце.","«Слово искренности» — ля иляха илляллах. Произнося его, вы очищаете своё убеждение от многобожия.","Ибрахим (мир ему) — имам единобожия; мы не первые на этом пути."]}},{"n":1,"audio":true,"ar":["أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ وَالْحَمْدُ لِلّٰهِ ، لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيْرٌ ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِيْ هٰذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ ، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْ هٰذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ ، رَبِّ أَعُوْذُ بِكَ مِنَ الْكَسَلِ وَسُوْءِ الْكِبَرِ ، رَبِّ أَعُوْذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ."],"uz":{"t":"Bugungi kunning yaxshiligini soʻrash","mn":"Biz ham, butun mulk ham tongni Allohnikida qarshiladi. Hamd Allohgadir. Allohdan oʻzga iloh yoʻq, U yakka-yolgʻiz, sherigi yoʻq. Mulk Unikidir, hamd ham Unikidir. U har narsaga Qodirdir.\n\nEy Robbim, Sendan shu kundagi va undan keyingi yaxshilikni soʻrayman; shu kundagi va undan keyingi yomonlikdan Sendan panoh soʻrayman. Ey Robbim, dangasalikdan va keksalikning yomonligidan Sendan panoh soʻrayman. Ey Robbim, doʻzax azobidan va qabr azobidan Sendan panoh soʻrayman.","q":"","f":"Abdulloh ibn Masʼud roziyallohu anhu: Rasululloh ﷺ tongni qarshilaganlarida shu duoni aytar edilar.","m":"Muslim, 2723.","s":["Duoning birinchi yarmi — maqtov, ikkinchi yarmi — soʻrov. Bu soʻrashning sunnat tartibi: avval taniting, keyin soʻrang.","«Mulk Allohnikida tongni qarshiladi» — dunyodagi hamma rahbar Uning mulki ichida. Bu bandalardan qoʻrquvni oladi.","«Dangasalik» — qoʻlingizdagi toʻsiq; «keksalikning yomonligi» — qoʻlingizda boʻlmagani. Ikkalasidan panoh soʻraladi.","Doʻzax azobi — eng ogʻiri, qabr azobi — eng birinchisi. Duo eng yaqin xavf bilan tugaydi."],"tr":"Asbaḥna wa asbaḥal-mulku lillah, wal-ḥamdu lillah, la ilaha illalloh waḥdahu la sharika lah, lahul-mulku wa lahul-ḥamd, wa Huwa ʼala kulli shayʼin Qodir. Robbi asʼaluka xoyro ma fi hazal-yawmi wa xoyro ma baʼdah, wa aʼuzu bika min sharri ma fi hazal-yawmi wa sharri ma baʼdah. Robbi aʼuzu bika minal-kasali wa suʼil-kibar. Robbi aʼuzu bika min ʼazabin fin-nari wa ʼazabin fil-qobr."},"ru":{"t":"Просьба о благе этого дня","tr":"Аṣбаḥна ва аṣбаḥаль-мульку лиллях, валь-ḥамду лиллях, ля иляха илляллоху ваḥдаху ля шарика лях, ляхуль-мульку ва ляхуль-ḥамд, ва Хува ʼаля кулли шайʼин Qодир. Робби асʼалюка хойро ма фи хазаль-йаум ва хойро ма баʼдах, ва аʼузу бика мин шарри ма фи хазаль-йаум ва шарри ма баʼдах. Робби аʼузу бика миналь-касали ва суʼиль-кибар. Робби аʼузу бика мин ʼазабин фин-нари ва ʼазабин филь-qобр.","mn":"Мы встретили утро, и владычество этим утром принадлежит Аллаху. Хвала Аллаху. Нет божества, кроме Аллаха, Единственного, у Которого нет сотоварища. Ему владычество, Ему хвала, и Он над всякой вещью мощен.\n\nГосподи, прошу у Тебя блага этого дня и блага того, что после него; и прибегаю к Тебе от зла этого дня и зла того, что после него. Господи, прибегаю к Тебе от лени и дурной старости. Господи, прибегаю к Тебе от мучения в Огне и мучения в могиле.","q":"","f":"Абдуллах ибн Масʼуд (да будет доволен им Аллах) передал, что Пророк ﷺ говорил это, встречая утро.","m":"Муслим, 2723.","s":["Первая половина дуа — восхваление, вторая — просьба. Таков сунновый порядок: сначала познакомь, затем проси.","«Владычество этим утром принадлежит Аллаху» — все правители мира внутри Его владения. Это убирает страх перед людьми.","«Лень» — препятствие в ваших руках; «дурная старость» — то, что не в ваших руках. Просят защиты от обоих.","Мучение в Огне — тягчайшее, мучение в могиле — первое. Дуа завершается ближайшей опасностью."]}},{"n":1,"audio":true,"ar":["أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ ، اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ خَيْرَ هٰذَا الْيَوْمِ ، فَتْحَهُ وَنَصْرَهُ وَنُوْرَهُ وَبَرَكَتَهُ وَهُدَاهُ ، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْهِ وَشَرِّ مَا بَعْدَهُ."],"uz":{"t":"Kuningizga baraka soʻrash","mn":"Biz ham, butun mulk ham tongni olamlar Robbi boʻlmish Allohnikida qarshiladi. Ey Alloh, Sendan shu kunning yaxshiligini soʻrayman: uning ochilishini, nusratini, nurini, barakasini va hidoyatini. Undagi va undan keyingi yomonlikdan Sendan panoh soʻrayman.","q":"","f":"Abu Molik al-Ashʼariy roziyallohu anhu: Rasululloh ﷺ: «Biringiz tongni qarshilaganida buni aytsin; kechqurunga kirganida ham shunday aytsin», dedilar.","m":"Abu Dovud, 5084.","s":["«Fatḥ» — ochilish: rizq, ilm, hidoya eshiklarining ochilishi va tugunlarning yechilishi.","«Naṣr» — nusrat; buni faqat tashqi dushmanga qarshi deb bilmang, eng qattiq jang nafsingiz bilan boʻladi.","«Nur» — hidoyat va imon nuri, foydali ilm va solih amal.","«Baraka» — miqdorning emas, samaraning ortishi. Kimdir oz uxlab tetik, kimdir koʻp uxlab holsiz — farq barakada."],"tr":"Asbaḥna wa asbaḥal-mulku lillahi Robbil-ʼalamin. Allohumma inni asʼaluka xoyro hazal-yawm: fatḥahu wa naṣrohu wa nurohu wa barokatahu wa hudah, wa aʼuzu bika min sharri ma fihi wa sharri ma baʼdah."},"ru":{"t":"Просьба о благодати дня","tr":"Аṣбаḥна ва аṣбаḥаль-мульку лилляхи Роббиль-ʼалямин. Аллохумма инни асʼалюка хойро хазаль-йаум: фатḥаху ва наṣроху ва нуроху ва барокатаху ва худах, ва аʼузу бика мин шарри ма фихи ва шарри ма баʼдах.","mn":"Мы встретили утро, и владычество этим утром принадлежит Аллаху, Господу миров. О Аллах, прошу у Тебя блага этого дня: его открытия, помощи, света, благодати и верного руководства; и прибегаю к Тебе от зла того, что в нём, и зла того, что после него.","q":"","f":"Абу Малик аль-Ашʼари (да будет доволен им Аллах) передал, что Пророк ﷺ сказал: «Пусть один из вас, встречая утро, скажет это; и то же самое — встречая вечер».","m":"Абу Дауд, 5084.","s":["«Фатḥ» — открытие: врат удела, знания, руководства и развязывание узлов.","«Наṣр» — помощь; не думайте о ней лишь против внешнего врага, ведь тягчайшая битва — с собственной душой.","«Нур» — свет веры и руководства, полезное знание и праведное дело.","«Барака» — приумножение не количества, а плода. Кто-то спит мало и бодр, кто-то много и обессилен — разница в благодати."]}},{"n":1,"audio":true,"ar":["اَللّٰهُمَّ بِكَ أَصْبَحْنَا ، وَبِكَ أَمْسَيْنَا ، وَبِكَ نَحْيَا ، وَبِكَ نَمُوْتُ ، وَإِلَيْكَ النُّشُوْرُ."],"uz":{"t":"Sen bilan tongni qarshiladik","mn":"Ey Alloh, Sen bilan tongni qarshiladik, Sen bilan kechga kirdik, Sen bilan yashaymiz, Sen bilan oʻlamiz va qaytish ham Sengadir.","q":"","f":"Abu Hurayra roziyallohu anhu: Rasululloh ﷺ tongda shu duoni aytar edilar; kechqurun esa «Allohumma bika amsayna...» deb boshlar edilar.","m":"Termiziy, 3391; Abu Dovud, 5068; Ibn Moja, 3868.","s":["Toʻrt marta «Sen bilan» takrorlanadi: tong, kech, hayot, oʻlim — hech biri sizning kuchingiz bilan emas.","Duo «va ilaykan-nushur» — «qaytish Sengadir» bilan tugaydi; kunning birinchi daqiqasida oxirat eslatiladi.","Uyqu — kichik oʻlim, uygʻonish — kichik qayta tirilish. Har tong Qiyomatning kichik mashqidan oʻtasiz.","Qisqa, lekin butun umr xaritasini bir jumlaga sigʻdiradi: kelish, yashash, ketish, qaytish."],"tr":"Allohumma bika asbaḥna, wa bika amsayna, wa bika naḥya, wa bika namut, wa ilaykan-nushur."},"ru":{"t":"С Тобою мы встретили утро","tr":"Аллохумма бика аṣбаḥна, ва бика амсайна, ва бика наḥйа, ва бика намут, ва иляйкан-нушур.","mn":"О Аллах, с Тобою мы встретили утро, с Тобою встречаем вечер, с Тобою живём, с Тобою умираем, и к Тебе — воскрешение.","q":"","f":"Абу Хурайра (да будет доволен им Аллах) передал, что Пророк ﷺ говорил это утром; а вечером начинал со слов «Аллахумма бика амсайна…».","m":"ат-Тирмизи, 3391; Абу Дауд, 5068; Ибн Маджа, 3868.","s":["Четырежды повторяется «с Тобою»: утро, вечер, жизнь, смерть — ни одно не вашей силой.","Дуа завершается «к Тебе — воскрешение»; в первую минуту дня напоминается о Последней жизни.","Сон — малая смерть, пробуждение — малое воскрешение. Каждое утро вы проходите малую репетицию Судного дня.","Коротко, но вмещает всю карту жизни в одну фразу: приход, жизнь, уход, возвращение."]}},{"n":1,"audio":true,"ar":["اَللّٰهُمَّ مَا أَصْبَحَ بِيْ مِنْ نِّعْمَةٍ أَوْ بِأَحَدٍ مِّنْ خَلْقِكَ ، فَمِنْكَ وَحْدَكَ لَا شَرِيْكَ لَكَ ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ."],"uz":{"t":"Shukr qarzini ado etish","mn":"Ey Alloh, menga yoki xalqingdan birortasiga tongda yetgan har qanday neʼmat faqat Sendandir; Sen yakka-yolgʻizsan, sheriging yoʻq. Hamd ham Senga, shukr ham Sengadir.","q":"","f":"Abdulloh ibn Gʻannom roziyallohu anhu: Rasululloh ﷺ: «Kim ertalab buni aytsa, oʻsha kunning shukrini ado etgan boʻladi; kechqurun aytsa, oʻsha tunning shukrini ado etgan boʻladi», dedilar.","m":"Abu Dovud, 5073.","s":["Neʼmatlar sanab boʻlmas, ammo shu bir jumla bilan bugungi shukr qarzi uziladi. Bu — Allohning karamining oʻzi yana bir neʼmat.","Aniq neʼmat tilga olinmagan: bilgan ham, bilmagan ham, dunyoviy ham, oxiratga oid ham neʼmatlar shukriga kiradi.","«Xalqingdan birortasiga» — boshqalarning neʼmatiga ham shukr qilish oʻrgatiladi.","Alloh aytadi: «Agar shukr qilsangiz, albatta, sizga ziyoda qilaman» (Ibrohim, 7)."],"tr":"Allohumma ma asbaḥa bi min niʼmatin aw bi-aḥadim-min xolqik, fa-minka waḥdaka la sharika lak, fa lakal-ḥamdu wa lakash-shukr."},"ru":{"t":"Исполнить долг благодарности","tr":"Аллохумма ма аṣбаḥа би мин ниʼматин ав би-аḥадим-мин хольqик, фа-минка ваḥдака ля шарика лак, фа лякаль-ḥамду ва лякаш-шукр.","mn":"О Аллах, какое бы благо ни пришло ко мне или к кому-либо из Твоих творений этим утром — оно только от Тебя одного, у Тебя нет сотоварища. Тебе хвала и Тебе благодарность.","q":"","f":"Абдуллах ибн Ганнам (да будет доволен им Аллах) передал, что Пророк ﷺ сказал: «Кто скажет это утром, тот исполнит долг благодарности за этот день; а кто скажет вечером — за эту ночь».","m":"Абу Дауд, 5073.","s":["Благ не счесть, но этой одной фразой закрывается долг благодарности за день. Сама эта милость Аллаха — ещё одно благо.","Конкретное благо не названо: так в благодарность входят и известные, и неведомые, и мирские, и относящиеся к Последней жизни блага.","«Или к кому-либо из Твоих творений» — учит быть благодарным и за блага других.","Аллах говорит: «Если вы будете благодарны, Я одарю вас ещё больше» (14:7)."]}},{"n":1,"audio":true,"ar":["يَا حَيُّ يَا قَيُّوْمُ ، بِرَحْمَتِكَ أَسْتَغِيْثُ ، أَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ ، وَلَا تَكِلْنِيْ إِلَىٰ نَفْسِيْ طَرْفَةَ عَيْنٍ."],"uz":{"t":"Ishlaringizni Allohga topshiring","mn":"Ey abadiy Tirik, ey borliqni Tutib turuvchi! Rahmating bilan Sendan madad soʻrayman. Barcha ishlarimni oʻnglab qoʻy va meni bir koʻz yumib ochguncha ham oʻzimga tashlab qoʻyma.","q":"","f":"Anas ibn Molik roziyallohu anhu: Rasululloh ﷺ qizlari Fotimaga: «Ertalab va kechqurun shu duoni aytishingdan seni nima toʻsib turibdi?» dedilar.","m":"Nasoiy, «Amalul-yavm val-layla», 570; Hokim, 1/545.","s":["Duo Allohning ikki ismi bilan boshlanadi: al-Ḥayy va al-Qoyyum. Koʻp ulamolar Ismi Aʼzam shu ikkisida deb bilishgan.","Nimaga madad soʻralayotgani aytilmagan — chunki hamma narsaga; biz hech narsada oʻzimizga tayana olmaymiz.","«Bir koʻz yumib ochguncha ham» — Rasululloh ﷺ ning qizlariga oʻrgatgan oʻlchovi shu. Bir soniya ham emas.","Bu duo bilan kuniga 17 marta oʻqiladigan oyatni amalda bajarasiz: «Faqat Senga ibodat qilamiz va faqat Sendan yordam soʻraymiz»."],"tr":"Ya Ḥayyu ya Qoyyum, bi-roḥmatika astagʻiṡu, aṣliḥ li shaʼni kullah, wa la takilni ila nafsi ṭarfata ʼayn."},"ru":{"t":"Вверьте свои дела Аллаху","tr":"Йа Ḥаййу йа Qоййум, би-роḥматика астаġиṡу, аṣлиḥ ли шаʼни куллях, ва ля такильни иля нафси ṭорфата ʼайн.","mn":"О Вечно Живой, о Поддерживающий бытие! Твоей милостью взываю о помощи. Исправь все мои дела и не оставляй меня самому себе даже на мгновение ока.","q":"","f":"Анас ибн Малик (да будет доволен им Аллах) передал, что Пророк ﷺ сказал своей дочери Фатиме: «Что мешает тебе говорить утром и вечером то, что я тебе завещаю?»","m":"ан-Насаи, «Амаль аль-йаум ва-ль-лейля», 570; аль-Хаким, 1/545.","s":["Дуа начинается двумя именами: аль-Ḥайй и аль-Qоййум. Многие учёные считают, что Величайшее имя — в этих двух.","О чём именно просьба о помощи — не названо, ведь во всём; мы ни в чём не можем опереться на себя.","«Даже на мгновение ока» — такова мера, которой Пророк ﷺ научил свою дочь. Не на секунду.","Этим дуа вы исполняете на деле аят, читаемый 17 раз в день: «Тебе одному мы поклоняемся и Тебя одного молим о помощи»."]}},{"n":3,"audio":true,"ar":["اَللّٰهُمَّ عَافِنِيْ فِيْ بَدَنِيْ ، اَللّٰهُمَّ عَافِنِيْ فِيْ سَمْعِيْ ، اَللّٰهُمَّ عَافِنِيْ فِيْ بَصَرِيْ ، لَا إِلٰهَ إِلَّا أَنْتَ. اَللّٰهُمَّ إِنِّيْ أَعُوْذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ ، وَأَعُوْذُ بِكَ مِنْ عَذَابِ الْقَبْرِ ، لَا إِلٰهَ إِلَّا أَنْتَ."],"uz":{"t":"Tan, quloq va koʻz salomatligi — uch marta","mn":"Ey Alloh, tanimga ofiyat ber. Ey Alloh, qulogʻimga ofiyat ber. Ey Alloh, koʻzimga ofiyat ber. Sendan oʻzga iloh yoʻq. Ey Alloh, kufrdan va faqirlikdan Sendan panoh soʻrayman; qabr azobidan Sendan panoh soʻrayman. Sendan oʻzga iloh yoʻq.","q":"","f":"Abu Bakra roziyallohu anhu shu duoni ertalab va kechqurun uch martadan aytar, oʻgʻli Abdurahmon undan oʻrganib, otasi bu duoni Rasululloh ﷺ dan eshitganini aytardi.","m":"Abu Dovud, 5090; Ahmad, 20430.","s":["Butun tan aytilgach, quloq va koʻz alohida tilga olinadi — ilm ham, fitna ham asosan shu ikki eshikdan kiradi.","«Ofiyat» — nafaqat kasallikdan xalos boʻlish, balki tan, aql va qalbning sogʻlom boʻlishi.","Kufr va faqirlik yonma-yon keladi: biri dinni, ikkinchisi dunyoni buzadi.","Sogʻliq — yoʻqotmaguningizcha qadri bilinmaydigan neʼmat; shuning uchun har kuni soʻrash oʻrgatilgan."],"tr":"Allohumma ʼafini fi badani, Allohumma ʼafini fi samʼi, Allohumma ʼafini fi baṣori, la ilaha illa Ant. Allohumma inni aʼuzu bika minal-kufri wal-faqr, wa aʼuzu bika min ʼazabil-qobr, la ilaha illa Ant."},"ru":{"t":"Здоровье тела, слуха и зрения — три раза","tr":"Аллохумма ʼафини фи бадани, Аллохумма ʼафини фи самʼи, Аллохумма ʼафини фи баṣори, ля иляха илля Ант. Аллохумма инни аʼузу бика миналь-куфри валь-фаqр, ва аʼузу бика мин ʼазабиль-qобр, ля иляха илля Ант.","mn":"О Аллах, даруй здоровье моему телу. О Аллах, даруй здоровье моему слуху. О Аллах, даруй здоровье моему зрению. Нет божества, кроме Тебя. О Аллах, прибегаю к Тебе от неверия и нищеты; и прибегаю к Тебе от мучения в могиле. Нет божества, кроме Тебя.","q":"","f":"Абу Бакра (да будет доволен им Аллах) читал это дуа утром и вечером по три раза, а его сын Абдуррахман перенял это от него, передавая, что отец слышал его от Пророка ﷺ.","m":"Абу Дауд, 5090; Ахмад, 20430.","s":["После всего тела отдельно упоминаются слух и зрение — ведь и знание, и смута входят в основном через эти двери.","«ʼАфия» — не только избавление от болезни, но и здравие тела, разума и сердца.","Неверие и нищета идут рядом: одно разрушает религию, другое — мирскую жизнь.","Здоровье — благо, ценность которого познаётся лишь после утраты; потому и велено просить его каждый день."]}},{"n":1,"audio":true,"ar":["اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ ، اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِيْ دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ ، اَللّٰهُمَّ اسْتُرْ عَوْرَاتِيْ وَآمِنْ رَوْعَاتِيْ ، اَللّٰهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ ، وَمِنْ خَلْفِيْ ، وَعَنْ يَّمِيْنِيْ ، وَعَنْ شِمَالِيْ ، وَمِنْ فَوْقِيْ ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ."],"uz":{"t":"Dunyo va oxiratda avf va ofiyat","mn":"Ey Alloh, dunyo va oxiratda Sendan avf va ofiyat soʻrayman. Ey Alloh, dinimda, dunyomda, ahlim va molimda Sendan avf va ofiyat soʻrayman. Ey Alloh, ayb-nuqsonlarimni yashir va qoʻrquvlarimni tinchit. Ey Alloh, meni oldimdan, ortimdan, oʻngimdan, chapimdan va ustimdan asra; ostimdan kutilmaganda halok qilinishimdan Sening ulugʻliging bilan panoh soʻrayman.","q":"","f":"Ibn Umar roziyallohu anhumo: Rasululloh ﷺ ertalab va kechqurun bu duolarni aytishni tark qilmas edilar.","m":"Abu Dovud, 5074; Ibn Moja, 3871; Nasoiy, «Amalul-yavm val-layla», 566.","s":["Avval umumiy soʻraladi — «dunyo va oxiratda». Keyin xuddi shu soʻrov toʻrt sohaga boʻlib takrorlanadi. Bu takror emas, isror — Alloh isror bilan soʻralishini yaxshi koʻradi.","Din, dunyo, ahl va mol — hayotning toʻrt ustuni; bittasi buzilsa, qolgani ham qiynaladi.","Oxirgi qism olti yoʻnalishni qamrab oladi. Shaytonning vaʼdasi toʻrt tomondan edi (Aʼrof, 17); duo unga yana ikkitasini — ust va ostni — qoʻshadi.","Ost tomon boshqacha — «ulugʻliging bilan panoh» deb soʻraladi, chunki ostdan halokat (yerga yutilish) Allohning jazosi boʻlgan."],"tr":"Allohumma inni asʼalukal-ʼafwa wal-ʼafiyata fid-dunya wal-oxiroh. Allohumma inni asʼalukal-ʼafwa wal-ʼafiyata fi dini wa dunyaya wa ahli wa mali. Allohummastur ʼawroti wa amin rawʼati. Allohummaḥfaẓni min bayni yadayya, wa min xolfi, wa ʼan yamini, wa ʼan shimali, wa min fawqi, wa aʼuzu bi-ʼaẓomatika an ugʻtala min taḥti."},"ru":{"t":"Прощение и благополучие в обоих мирах","tr":"Аллохумма инни асʼалюкаль-ʼафва валь-ʼафията фид-дунйа валь-ахироh. Аллохумма инни асʼалюкаль-ʼафва валь-ʼафията фи дини ва дунйайа ва ахли ва мали. Аллохуммастур ʼаврати ва амин раʼвати. Аллохуммаḥфаẓни мин байни йадаййа, ва мин хольфи, ва ʼан йамини, ва ʼан шимали, ва мин фауqи, ва аʼузу би-ʼаẓоматика ан уġталя мин таḥти.","mn":"О Аллах, прошу у Тебя прощения и благополучия в этом мире и в Последней жизни. О Аллах, прошу у Тебя прощения и благополучия в моей религии, моей жизни, моей семье и моём имуществе. О Аллах, прикрой мои изъяны и успокой мои страхи. О Аллах, храни меня спереди, сзади, справа, слева и сверху; и прибегаю к Твоему величию от того, чтобы быть погублённым снизу.","q":"","f":"Ибн Умар (да будет доволен Аллах ими обоими) передал: Пророк ﷺ не оставлял этих дуа утром и вечером.","m":"Абу Дауд, 5074; Ибн Маджа, 3871; ан-Насаи, «Амаль аль-йаум ва-ль-лейля», 566.","s":["Сначала просят общо — «в этом мире и в Последней жизни». Затем та же просьба повторяется по четырём областям. Это не повтор, а настойчивость — Аллах любит, когда Его просят настойчиво.","Религия, жизнь, семья и имущество — четыре опоры человека; расстроится одна — страдают и остальные.","Последняя часть охватывает шесть направлений. Обещание шайтана было с четырёх сторон (7:17); дуа добавляет ещё две — сверху и снизу.","О защите снизу просят иначе — «Твоим величием», ведь гибель снизу (провалиться сквозь землю) была наказанием Аллаха."]}},{"n":1,"audio":true,"ar":["اَللّٰهُمَّ فَاطِرَ السَّمٰوَاتِ وَالْأَرْضِ ، عَالِمَ الْغَيْبِ وَالشَّهَادَةِ ، لَا إِلٰهَ إِلَّا أَنْتَ ، رَبَّ كُلِّ شَيْءٍ وَّمَلِيْكَهُ ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ ، وَأَنْ أَقْتَرِفَ عَلَىٰ نَفْسِيْ سُوْءًا أَوْ أَجُرَّهُ إِلَىٰ مُسْلِمٍ."],"uz":{"t":"Toʻrt xil yomonlikdan panoh","mn":"Ey Alloh, osmonlaru yerni yaratgan Zot! Gʻayb va oshkorni Bilguvchi! Sendan oʻzga iloh yoʻq, Sen har narsaning Robbi va Egasisan. Nafsimning yomonligidan, shaytonning yomonligidan va u chaqiradigan shirkdan Sendan panoh soʻrayman; oʻzimga yomonlik qilishimdan yoki uni biror musulmonga yetkazishimdan ham panoh soʻrayman.","q":"","f":"Abu Bakr Siddiq roziyallohu anhu: «Ey Allohning Rasuli, ertalab va kechqurun nima deyishimni oʻrgating», dedilar. Rasululloh ﷺ shu duoni oʻrgatib: «Buni ertalab, kechqurun va uyquga yotganingda ayt», dedilar.","m":"Termiziy, 3529 (shu lafz bilan) va 3392; Abu Dovud, 5067.","s":["Duoning yarmi maqtovdan iborat: yaratish, ilm, egalik. Soʻrov qanchalik katta boʻlsa, maqtov ham shunchalik uzun.","Yomonlikning ikki manbai bor: ichkaridan — nafs, tashqaridan — shayton. Duo ikkalasini ham qamrab oladi.","Yomonlikning ikki qabul qiluvchisi bor: oʻzingiz va boshqalar. Duo ikkalasidan ham panoh soʻraydi — mana «toʻrt yomonlik».","Mazlum boʻlishdan panoh soʻragan odam zolim boʻlishdan ham panoh soʻrasin."],"tr":"Allohumma faṭiros-samawati wal-arḍ, ʼalimal-gʻaybi wash-shahadah, la ilaha illa Ant, Robba kulli shayʼin wa malikah, aʼuzu bika min sharri nafsi, wa min sharrish-shayṭoni wa shirkih, wa an aqtarifa ʼala nafsi suʼan aw ajurrohu ila muslim."},"ru":{"t":"Защита от четырёх зол","tr":"Аллохумма фаṭирос-самавати валь-арḍ, ʼалималь-ġойби ваш-шахадаh, ля иляха илля Ант, Робба кулли шайʼин ва маликях, аʼузу бика мин шарри нафси, ва мин шарриш-шайṭони ва ширких, ва ан аqтарифа ʼаля нафси суʼан ав аджурроху иля муслим.","mn":"О Аллах, Творец небес и земли, Знающий сокровенное и явное! Нет божества, кроме Тебя, Господа и Владыки всякой вещи. Прибегаю к Тебе от зла моей души, от зла шайтана и его призыва к многобожию; и от того, чтобы совершить зло против себя или навлечь его на мусульманина.","q":"","f":"Абу Бакр ас-Сыддик (да будет доволен им Аллах) попросил: «О Посланник Аллаха, научи меня, что говорить утром и вечером». Пророк ﷺ научил его этому дуа и сказал: «Говори это утром, вечером и когда ложишься спать».","m":"ат-Тирмизи, 3529 (в этой редакции) и 3392; Абу Дауд, 5067.","s":["Половина дуа — восхваление: творение, знание, владычество. Чем больше просьба, тем длиннее восхваление.","У зла два источника: изнутри — душа, извне — шайтан. Дуа охватывает оба.","У зла два получателя: вы сами и другие. Дуа просит защиты от обоих — вот эти «четыре зла».","Кто просит защиты от того, чтобы стать притеснённым, пусть просит и от того, чтобы стать притеснителем."]}},{"n":1,"audio":true,"ar":["اَللّٰهُمَّ أَنْتَ رَبِّيْ لَا إِلٰهَ إِلَّا أَنْتَ ، خَلَقْتَنِيْ وَأَنَا عَبْدُكَ ، وَأَنَا عَلَىٰ عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ ، أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوْءُ لَكَ بِذَنْبِيْ ، فَاغْفِرْ لِيْ فَإِنَّهُ لَا يَغْفِرُ الذُّنُوْبَ إِلَّا أَنْتَ."],"uz":{"t":"Sayyidul-Istigʻfor — magʻfiratning eng afzali","mn":"Ey Alloh, Sen mening Robbimsan. Sendan oʻzga iloh yoʻq. Meni Sen yaratgansan, men esa Sening bandangman. Kuchim yetguncha ahdim va vaʼdamda turibman. Qilgan ishlarim yomonligidan Sendan panoh soʻrayman. Menga bergan neʼmatingni ham, qilgan gunohimni ham tan olaman. Meni kechir — gunohlarni Sendan oʻzga hech kim kechirmaydi.","q":"","f":"Shaddod ibn Avs roziyallohu anhu: Rasululloh ﷺ: «Istigʻforning sayyidi — bandaning shuni aytishidir. Kim uni kunduzi yaqiyn bilan aytsa va oʻsha kuni kechga qadar vafot etsa — u jannat ahlidan. Kim uni kechasi yaqiyn bilan aytib, tongga qadar vafot etsa — u ham jannat ahlidan», dedilar.","m":"Buxoriy, 6306.","s":["Kechirim soʻrash duoning eng oxirida keladi. Undan oldin oltita zina bor: Allohni ulugʻlash, ahdni tan olish, vaʼdaga umid, yomonlikdan panoh, neʼmatni tan olish, gunohni tan olish.","«Kuchim yetguncha» — ochiq tan olish: biz Uni loyiq darajada hech qachon ibodat qila olmaymiz.","Ibnul Qoyyim rohimahulloh: neʼmatni tan olish sevgi va shukrga, aybni tan olish tavba va ojizlikka olib boradi. Orif Allohga shu ikki qanot bilan uchadi.","«Yaqiyn bilan» degan shart bor; yaqiyn esa maʼnoni bilishdan tugʻiladi — shuning uchun tarjimasini oʻqiyapsiz."],"tr":"Allohumma Anta Robbi, la ilaha illa Ant, xolaqtani wa ana ʼabduk, wa ana ʼala ʼahdika wa waʼdika mastaṭoʼt, aʼuzu bika min sharri ma ṣonaʼt, abuʼu laka bi-niʼmatika ʼalayya wa abuʼu laka bi-zanbi fagʻfir li fa-innahu la yagʻfiruz-zunuba illa Ant."},"ru":{"t":"Сайид аль-истигфар — лучшая форма покаяния","tr":"Аллохумма Анта Робби, ля иляха илля Ант, холяqтани ва ана ʼабдук, ва ана ʼаля ʼахдика ва ваʼдика мастаṭоʼт, аʼузу бика мин шарри ма ṣонаʼт, абуʼу ляка би-ниʼматика ʼаляйя ва абуʼу ляка би-занби фаġфир ли фа-иннаху ля яġфируз-зунуба илля Ант.","mn":"О Аллах, Ты — мой Господь, нет божества, кроме Тебя. Ты создал меня, и я — Твой раб. Я держусь Твоего завета и обещания, насколько могу. Прибегаю к Тебе от зла того, что я совершил. Признаю Твою милость ко мне и признаю свой грех. Прости же меня, ведь никто не прощает грехи, кроме Тебя.","q":"","f":"Шаддад ибн Аус (да будет доволен им Аллах) передал, что Пророк ﷺ сказал: «Господин покаяний — это когда раб говорит это. Кто скажет его днём с убеждённостью и умрёт в тот же день до вечера — тот из обитателей Рая. И кто скажет его ночью с убеждённостью и умрёт до утра — тот из обитателей Рая».","m":"аль-Бухари, 6306.","s":["Просьба о прощении стоит в самом конце. До неё — шесть ступеней: возвеличивание Аллаха, признание завета, надежда на обещание, защита от зла, признание милости и признание греха.","«Насколько могу» — открытое признание: мы никогда не поклоняемся Ему так, как Он того достоин.","Ибн аль-Каййим: признание милости ведёт к любви и благодарности, а признание греха — к покаянию и смирению. Познавший летит к Аллаху на этих двух крыльях.","Есть условие «с убеждённостью»; убеждённость же рождается из понимания смысла — потому вы и читаете перевод."]}},{"n":100,"audio":true,"ar":["أَسْتَغْفِرُ اللّٰهَ."],"uz":{"t":"Istigʻfor — yuz marta","mn":"Allohdan magʻfirat soʻrayman.","q":"","f":"Rasululloh ﷺ: «Ey odamlar, Allohga tavba qilinglar. Men kuniga yuz marta Unga tavba qilaman», dedilar. Boshqa rivoyatda: «Men kuniga yuz marta Allohdan magʻfirat soʻrayman.»","m":"Muslim, 2702; Buxoriy, 6307.","s":["Kuniga yuz marta istigʻfor aytgan zot — gunohi kechirilgan Paygʻambar edi. Bizning holimiz qanday?","Istigʻfor faqat gunohni oʻchirmaydi: «Robbingizdan magʻfirat soʻranglar... U sizga moʻl yomgʻir, mol-dunyo va farzandlar beradi» (Nuh, 10-12).","Bu zikrni yurishda, ishda, navbat kutayotib ham aytish mumkin. Til band boʻlmagan har lahza — imkoniyat.","Toʻliqroq shakli: «Astagʻfirullaha wa atubu ilayh» — magʻfirat soʻrayman va Unga tavba qilaman."],"tr":"Astagʻfirulloh."},"ru":{"t":"Истигфар — сто раз","tr":"Астаġфируллох.","mn":"Прошу прощения у Аллаха.","q":"","f":"Пророк ﷺ сказал: «О люди, кайтесь Аллаху. Поистине, я каюсь Ему сто раз в день». В другом предании: «Я прошу прощения у Аллаха сто раз в день».","m":"Муслим, 2702; аль-Бухари, 6307.","s":["Сто раз в день просил прощения тот, чьи грехи были прощены, — Пророк ﷺ. Каково же наше положение?","Истигфар не только стирает грех: «Просите прощения у вашего Господа… Он ниспошлёт вам обильные дожди, поддержит вас имуществом и детьми» (71:10–12).","Этот зикр можно произносить на ходу, за делом, в ожидании очереди. Каждый миг, когда язык свободен, — возможность.","Более полная форма: «Астагфируллаха ва атубу иляйх» — прошу прощения у Аллаха и каюсь Ему."]}},{"n":3,"audio":true,"ar":["سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ ، عَدَدَ خَلْقِهِ ، وَرِضَا نَفْسِهِ ، وَزِنَةَ عَرْشِهِ ، وَمِدَادَ كَلِمَاتِهِ."],"uz":{"t":"Yaratiqlar soniga teng tasbeh — uch marta","mn":"Allohni hamdi bilan poklab yod etaman — yaratiqlari soniga teng, Oʻzining roziligicha, Arshining ogʻirligicha va kalimalarining siyohicha.","q":"","f":"Juvayriya roziyallohu anho zikr qilib oʻtirar edi. Rasululloh ﷺ: «Sendan keyin men toʻrt kalimani uch marta aytdim; agar ular bugun ertalabdan beri aytganing bilan tarozida solishtirilsa, oʻshalar ogʻir kelardi», dedilar.","m":"Muslim, 2726.","s":["Zikrning qiymati miqdorda emas, vaznda. Uch kalima yarim kunlik zikrdan ogʻir kelishi mumkin.","«Yaratiqlari soniga teng» — sanoq bilan chegaralanmagan zikr; til yeta olmaganini niyat yetkazadi.","«Kalimalarining siyohicha» — «Agar dengiz Robbimning kalimalari uchun siyoh boʻlsa, dengiz tugardi-yu, Robbimning kalimalari tugamasdi» (Kahf, 109).","Bu — ulkan savobni qisqa vaqtda topish yoʻli; vaqti kam odamga Allohning marhamati."],"tr":"Subḥanallohi wa bi-ḥamdih, ʼadada xolqih, wa riḍo nafsih, wa zinata ʼarshih, wa midada kalimatih."},"ru":{"t":"Тасбих числом творений — три раза","tr":"Субḥаналлохи ва би-ḥамдих, ʼадада хольqих, ва риḍо нафсих, ва зината ʼарших, ва мидада калиматих.","mn":"Пречист Аллах и хвала Ему — числом Его творений, по мере Его довольства, весом Его Трона и чернилами (без конца) Его слов.","q":"","f":"Джувайрия (да будет довольна ею Аллах) сидела за поминанием. Пророк ﷺ сказал ей: «Я после тебя произнёс четыре фразы трижды; если взвесить их с тем, что ты говорила с утра, они перевесят».","m":"Муслим, 2726.","s":["Ценность зикра не в количестве, а в весе. Три фразы могут перевесить полдня поминания.","«Числом Его творений» — зикр, не ограниченный счётом; чего не достаёт язык, доносит намерение.","«Чернилами Его слов» — «Если бы море стало чернилами для слов моего Господа, то море иссякло бы прежде, чем иссякли бы слова моего Господа» (18:109).","Это путь обрести огромную награду за короткое время — милость Аллаха к тому, у кого мало времени."]}},{"n":1,"audio":true,"ar":["اَللّٰهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا ، وَرِزْقًا طَيِّبًا ، وَعَمَلًا مُتَقَبَّلًا."],"uz":{"t":"Foydali ilm, halol rizq, qabul amal","mn":"Ey Alloh, Sendan foydali ilm, halol rizq va qabul qilinadigan amal soʻrayman.","q":"","f":"Ummu Salama roziyallohu anho: Rasululloh ﷺ bomdod namozidan keyin salom berganlarida shu duoni aytar edilar.","m":"Ibn Moja, 925; Ahmad, 26602.","s":["Uchta soʻrov — kunning uchta ustuni: nima bilaman, nima yeyman, nima qilaman.","«Foydali ilm» — amalga, taqvoga va Allohni tanishga eltadigan ilm.","«Halol rizq» — miqdori emas, sifati soʻralyapti; haromdan boyigan odam yutqazgan.","«Qabul qilinadigan amal» — qabulning ikki sharti: ixlos va sunnatga muvofiqlik. Shu duo aynan bomdoddan keyin aytiladi."],"tr":"Allohumma inni asʼaluka ʼilman nafiʼan, wa rizqon ṭoyyiban, wa ʼamalan mutaqobbala."},"ru":{"t":"Полезное знание, дозволенный удел, принятое дело","tr":"Аллохумма инни асʼалюка ʼильман нафиʼан, ва ризqон ṭоййибан, ва ʼамалян мутаqоббаля.","mn":"О Аллах, прошу у Тебя полезного знания, дозволенного удела и принятого дела.","q":"","f":"Умм Салама (да будет довольна ею Аллах) передала, что Пророк ﷺ говорил это после того, как давал салам в утреннем намазе.","m":"Ибн Маджа, 925; Ахмад, 26602.","s":["Три просьбы — три опоры дня: что знаю, что ем, что делаю.","«Полезное знание» — то, что ведёт к делу, богобоязненности и познанию Аллаха.","«Дозволенный удел» — просят не о количестве, а о качестве; разбогатевший на запретном — в убытке.","«Принятое дело» — у принятия два условия: искренность и соответствие сунне. Это дуа читается именно после утреннего намаза."]}},{"n":100,"audio":true,"ar":["سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ."],"uz":{"t":"Subhanallohi va bi-hamdih — yuz marta","mn":"Allohni hamdi bilan poklab yod etaman.","q":"","f":"Rasululloh ﷺ: «Kim kuniga yuz marta “Subhanallohi wa bi-hamdih” desa, gunohlari dengiz koʻpigicha boʻlsa ham toʻkib tashlanadi», dedilar.","m":"Buxoriy, 6405; Muslim, 2691.","s":["«Subhanalloh» — Allohni har qanday kamchilikdan pok deb bilish; «bi-hamdih» — hamd bilan birga. Inkor va isbot bir jumlada.","Bu — tilda eng yengil, tarozida eng ogʻir kalimalardan biri.","Rasululloh ﷺ: «Allohga eng suyukli toʻrt kalima: Subhanalloh, alhamdulillah, la ilaha illalloh, Allohu akbar» (Muslim, 2137).","Yuz marta taxminan uch daqiqa; yoʻlda, ishga ketayotib ham aytiladi — tahorat ham, joynamoz ham shart emas."],"tr":"Subḥanallohi wa bi-ḥamdih."},"ru":{"t":"Субхьаналлахи ва бихьамдих — сто раз","tr":"Субḥаналлохи ва би-ḥамдих.","mn":"Пречист Аллах и хвала Ему.","q":"","f":"Пророк ﷺ сказал: «Кто скажет сто раз в день «Субхьаналлахи ва бихьамдих», с того будут сняты грехи, даже если они как пена морская».","m":"аль-Бухари, 6405; Муслим, 2691.","s":["«Субхьаналлах» — признание Аллаха пречистым от всякого изъяна; «ва бихьамдих» — вместе с хвалой. Отрицание и утверждение в одной фразе.","Это одно из самых лёгких для языка и тяжёлых на весах слов.","Пророк ﷺ сказал: «Самые любимые Аллаху четыре слова: Субхьаналлах, Альхьамдулиллях, Ля иляха илляллах, Аллаху акбар» (Муслим, 2137).","Сто раз — около трёх минут; произносится и в пути, и за делом — не нужны ни омовение, ни коврик."]}},{"n":100,"audio":true,"ar":["سُبْحَانَ اللّٰهِ ، وَالْحَمْدُ لِلّٰهِ ، وَاللّٰهُ أَكْبَرُ."],"uz":{"t":"Subhanalloh, alhamdulillah, Allohu akbar — yuz marta","mn":"Allohni pok deb bilaman. Hamd Allohgadir. Alloh eng Buyukdir.","q":"","f":"Rasululloh ﷺ: «Allohga eng suyukli toʻrt kalima: Subhanalloh, alhamdulillah, la ilaha illalloh, Allohu akbar. Qaysinisidan boshlasang ham, senga ziyoni yoʻq», dedilar.","m":"Muslim, 2137.","s":["Bu uch kalima — zikrning ustunlari: tanzih (poklash), hamd (maqtov) va takbir (ulugʻlash).","Bu soʻzlar Allohga eng suyukli kalimalardan; tilingizni band qilishning eng yaxshi yoʻli.","«Allohu akbar» — Alloh hamma narsadan buyuk; bugungi tashvishingizdan ham, ustingizdagi odamdan ham.","Har farz namozdan keyin bu uch kalimani 33 martadan aytish ham alohida sunnatdir."],"tr":"Subḥanalloh, wal-ḥamdu lillah, wallohu akbar."},"ru":{"t":"Субхьаналлах, альхьамдулиллях, Аллаху акбар — сто раз","tr":"Субḥаналлох, валь-ḥамду лиллях, валлоху акбар.","mn":"Пречист Аллах. Хвала Аллаху. Аллах Велик.","q":"","f":"Пророк ﷺ сказал: «Самые любимые Аллаху четыре слова: Субхьаналлах, Альхьамдулиллях, Ля иляха илляллах, Аллаху акбар. Не повредит тебе, с какого из них начнёшь».","m":"Муслим, 2137.","s":["Эти три фразы — опоры зикра: танзих (очищение), хьамд (хвала) и такбир (возвеличивание).","Это одни из самых любимых Аллаху слов; лучший способ занять язык.","«Аллаху акбар» — Аллах больше всего: больше вашей сегодняшней заботы, больше того, кто над вами, больше вашего страха.","Говорить эти три фразы по 33 раза после каждого обязательного намаза — отдельная сунна."]}},{"n":100,"audio":true,"ar":["لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيْرٌ."],"uz":{"t":"Tavhid kalimasi — yuz marta","mn":"Allohdan oʻzga ibodatga loyiq iloh yoʻq. U yakka-yolgʻiz, sherigi yoʻq. Mulk Unikidir, hamd ham Unikidir. U har narsaga Qodirdir.","q":"","f":"Rasululloh ﷺ: «Kim kuniga yuz marta buni aytsa, unga oʻn qulni ozod qilgancha savob boʻladi; yuz yaxshilik yoziladi, yuz gunohi oʻchiriladi va u kun kirguncha shaytondan himoyada boʻladi», dedilar.","m":"Buxoriy, 3293 va 6403; Muslim, 2691.","s":["Bir hadisda uchta savob: oʻn qul ozod qilish, yuz yaxshilik va kun boʻyi shaytondan himoya.","Azkorlar boshida bu kalimani oʻn marta aytgan edingiz; bu — oʻsha kalimaning toʻliq oʻlchovi.","«Mulk Unikidir» — kimdandir umid qilsangiz, avval buni eslang: mulk Egasi qoʻlida.","Yuz marta bir oʻtirishda boʻlishi shart emas; kun boʻyi boʻlib-boʻlib ayting."],"tr":"La ilaha illalloh, waḥdahu la sharika lah, lahul-mulku wa lahul-ḥamd, wa Huwa ʼala kulli shayʼin Qodir."},"ru":{"t":"Слово единобожия — сто раз","tr":"Ля иляха илляллоху ваḥдаху ля шарика лях, ляхуль-мульку ва ляхуль-ḥамд, ва Хува ʼаля кулли шайʼин Qодир.","mn":"Нет божества, кроме Аллаха, Единственного, у Которого нет сотоварища. Ему владычество, Ему хвала, и Он над всякой вещью мощен.","q":"","f":"Пророк ﷺ сказал: «Кто скажет это сто раз в день, тому будет награда как за освобождение десяти рабов; ему запишут сто благодеяний, сотрут сто грехов, и он будет защищён от шайтана до вечера».","m":"аль-Бухари, 3293 и 6403; Муслим, 2691.","s":["В одном хадисе — три награды: освобождение десяти рабов, сто благодеяний и защита от шайтана на весь день.","В начале азкаров вы говорили это слово десять раз; здесь — его полная мера.","«Ему владычество» — если на кого-то надеетесь, вспомните: власть в руках её Владельца.","Сто раз не обязательно за один присест; говорите по частям в течение дня."]}},{"n":10,"audio":true,"ar":["اَللّٰهُمَّ صَلِّ وَسَلِّمْ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ."],"uz":{"t":"Paygʻambarimizga solavot — oʻn marta","mn":"Ey Alloh, Paygʻambarimiz Muhammadga salot va salom yoʻlla.","q":"","f":"Rasululloh ﷺ: «Kim menga bir marta solavot aytsa, Alloh unga oʻn marta rahmat yoʻllaydi», dedilar. Boshqa rivoyatda: «Kim ertalab oʻn marta va kechqurun oʻn marta solavot aytsa, Qiyomat kuni unga shafoatim yetadi.»","m":"Muslim, 408; Tabaroniy, «al-Muʼjamul-avsat», 1662.","s":["Solavot — Rasululloh ﷺ ga bergan qarzimizning kichik bir qismi; u zotning sababi bilan bu hidoyatni topdik.","Siz u zotga solavot aytasiz, foydasi esa sizga qaytadi — bir solavotga oʻn rahmat.","Solavot hech qachon rad qilinmaydi; shuning uchun duoni solavot bilan boshlang va yakunlang.","Juma kuni solavotni koʻpaytirish alohida sunnat."],"tr":"Allohumma ṣolli wa sallim ʼala Nabiyyina Muḥammad."},"ru":{"t":"Салават Пророку ﷺ — десять раз","tr":"Аллохумма ṣолли ва саллим ʼаля Набиййина Муḥаммад.","mn":"О Аллах, благослови и приветствуй нашего Пророка Мухаммада.","q":"","f":"Пророк ﷺ сказал: «Кто произнесёт надо мной салават один раз, тому Аллах ниспошлёт десять милостей». В другом предании: «Кто утром десять раз и вечером десять раз произнесёт надо мной салават, того настигнет моё заступничество в День воскресения».","m":"Муслим, 408; ат-Табарани, «аль-Муʼджам аль-аусат», 1662.","s":["Салават — малая часть нашего долга перед Пророком ﷺ; благодаря ему мы обрели это руководство.","Вы шлёте салават ему, а польза возвращается вам — за один салават десять милостей.","Салават никогда не отвергается; потому начинайте и завершайте дуа салаватом.","Умножать салават в пятницу — отдельная сунна."]}}],"timing":[[[2.62,78.53,[2.62,4.9,5.14,5.86,6.15,6.29,6.41,7.47,7.65,10.31,11.27,11.57,11.71,12.27,12.47,13.55,13.75,15.91,17.31,17.98,18.32,18.42,18.86,19.4,19.76,20.18,20.56,20.74,20.9,21.44,21.78,24.4,25.5,25.6,25.92,26.82,27.22,27.7,29.52,29.85,30.21,32.69,33.83,34.01,34.45,34.55,34.85,34.95,35.03,36.45,36.73,37.05,37.37,37.49,37.63,38.23,39.43,39.65,41.17,41.27,41.41,41.94,42.2,42.82,43.08,44.66,45.2,45.58,45.94,46.74,47.92,48.44,48.7,48.8,49.12,49.5,49.82,50.8,51.04,51.36,51.72,52.64,53.65,53.95,54.27,55.41,55.67,56.33,57.55,57.71,57.95,58.57,59.19,59.61,59.99,60.31,60.67,64.51,65.47,65.88,66.08,67.16,67.32,68.68,68.96,69.72,70.72,71.04,71.38,72.26,72.68,73.7,74.88,75.24,75.42,76.3,76.54,78.53]]],[[79.65,174.13,[79.65,79.99,80.15,80.83,81.03,82.03,82.23,84.61,85.49,85.61,85.93,86.09,86.27,86.93,87.31,87.69,88.49,89.19,89.4,90.08,90.78,90.92,91.14,91.54,91.8,92.16,92.36,93.0,93.78,94.08,94.34,94.74,95.02,95.24,95.7,96.32,96.78,97.2,98.2,98.58,98.74,99.42,99.66,100.68,100.9,104.23,105.13,105.27,105.61,106.11,106.35,106.91,107.11,107.83,108.67,108.79,110.45,110.79,111.09,111.19,111.51,111.97,112.77,113.07,114.38,114.74,115.04,115.66,116.28,116.52,116.88,117.38,118.22,118.58,120.06,120.44,120.7,123.28,123.54,123.64,123.74,124.46,125.21,125.51,126.79,127.11,127.43,128.17,128.75,128.99,129.45,130.01,130.87,131.23,131.39,132.07,132.27,133.27,133.47,135.81,136.59,136.71,137.08,137.6,137.86,138.38,138.62,141.76,142.54,142.9,143.1,148.06,148.84,149.43,149.59,153.45,154.29,154.45,155.39,155.73,155.99,157.07,157.29,160.33,161.12,161.72,162.08,162.82,163.1,163.24,163.52,164.16,164.32,168.08,168.74,168.88,169.04,170.54,170.82,174.13]],[174.99,260.9,[174.99,175.33,175.43,176.07,176.27,177.29,177.49,178.99,179.75,179.89,180.19,180.33,180.49,181.11,181.47,181.87,182.55,183.29,183.49,184.13,184.39,184.53,184.74,185.14,185.4,185.76,186.0,186.66,187.4,187.72,187.96,188.36,188.62,188.84,189.26,189.86,190.32,190.72,191.48,191.86,192.0,192.62,192.84,193.9,194.1,197.13,197.93,198.07,198.41,198.95,199.19,199.75,199.97,200.73,201.45,201.59,202.63,202.97,203.27,203.37,203.71,204.19,204.91,205.25,206.03,206.37,206.69,207.39,207.97,208.21,208.64,209.12,209.72,210.08,211.7,212.04,212.26,214.98,215.24,215.34,215.42,216.16,216.86,217.16,218.34,218.66,218.98,219.68,220.24,220.44,220.95,221.51,222.31,222.65,222.79,223.43,223.65,224.71,224.91,227.07,227.83,227.97,228.35,228.91,229.19,229.71,229.93,232.5,233.14,233.48,233.68,236.04,236.72,237.22,237.42,240.46,241.18,241.34,242.36,242.72,242.96,244.14,244.37,248.79,249.57,250.17,250.49,251.29,251.59,251.71,251.99,252.71,252.87,255.55,256.26,256.4,256.56,258.32,258.58,260.9]],[261.68,348.73,[261.68,262.02,262.14,262.76,262.96,264.12,264.2,266.56,267.36,267.5,267.8,267.94,268.1,268.73,269.09,269.49,269.71,270.59,270.77,271.47,271.75,271.91,272.13,272.55,272.79,273.15,273.41,274.11,274.87,275.19,275.45,275.87,276.17,276.39,276.85,277.45,277.89,278.27,279.03,279.37,279.53,280.24,280.44,281.46,281.66,283.76,284.5,284.64,284.96,285.5,285.76,286.28,286.54,287.26,287.54,287.72,288.84,289.18,289.5,289.6,289.94,290.4,290.72,291.1,292.71,293.05,293.37,294.09,294.67,294.89,295.25,295.75,296.43,296.75,297.97,298.29,298.51,301.11,301.37,301.49,301.61,302.35,302.99,303.33,305.5,305.8,306.14,306.82,307.38,307.58,307.94,308.48,309.22,309.56,309.72,310.4,310.6,311.7,311.92,316.39,317.19,317.31,317.67,318.21,318.47,319.01,319.23,320.39,320.69,321.09,321.29,322.89,323.27,323.85,324.05,328.5,329.24,329.38,330.62,330.98,331.2,332.3,332.5,335.32,335.58,336.12,336.44,337.28,337.58,337.74,338.26,338.96,339.14,342.23,343.01,343.17,343.31,345.03,345.29,348.73]]],[[350.07,366.55,[350.07,350.19,353.08,353.62,353.94,354.34,354.42,355.06,355.34,355.9,356.38,356.48,356.78,357.42,357.7,357.86,358.72,358.84,358.98,359.46,359.68,360.02,360.14,360.66,360.88,361.24,361.52,362.24,362.5,362.82,363.08,363.32,363.61,363.87,364.17,364.55,365.79,366.55]],[367.59,380.7,[367.59,367.67,367.91,368.25,368.51,368.77,368.87,369.31,369.53,369.97,370.29,370.37,370.53,371.01,371.23,371.41,371.75,371.89,372.05,372.57,372.79,373.15,373.33,374.01,374.75,375.15,375.48,376.32,376.56,376.88,377.16,377.42,377.74,378.0,378.3,378.64,379.6,380.7]],[381.64,398.11,[381.64,381.74,382.08,382.58,382.9,383.26,383.32,383.82,384.04,384.52,384.88,384.96,385.18,385.72,386.0,386.18,386.58,386.74,386.9,387.47,387.73,388.13,388.31,388.87,389.51,389.89,390.15,393.47,394.07,394.33,394.57,394.81,395.07,395.33,395.61,395.95,397.25,398.11]],[398.89,414.45,[398.89,398.99,399.34,399.82,400.1,400.42,400.5,401.14,401.38,401.86,402.34,402.44,402.72,403.34,403.62,403.82,404.26,404.44,404.6,405.2,405.44,405.86,406.02,406.66,407.24,407.6,407.92,408.64,408.9,409.22,409.5,409.82,410.18,410.4,410.84,411.23,412.33,414.45]],[415.17,433.62,[415.17,415.27,415.59,416.13,416.43,416.79,416.89,417.55,417.81,418.39,418.83,418.91,419.21,420.01,420.31,420.49,421.05,421.19,421.37,421.97,422.23,422.57,422.73,423.42,424.02,424.44,424.96,427.12,427.68,427.98,428.24,428.48,428.76,429.0,429.34,429.74,431.42,433.62]],[434.66,451.14,[434.66,434.78,437.63,438.23,438.53,438.93,439.01,439.65,439.93,440.51,440.97,441.07,441.37,442.01,442.29,442.45,443.31,443.43,443.57,444.03,444.27,444.61,444.75,445.27,445.49,445.85,446.13,446.85,447.1,447.42,447.7,447.94,448.22,448.46,448.78,449.16,450.4,451.14]],[452.2,465.29,[452.2,452.28,452.52,452.86,453.12,453.4,453.48,453.92,454.14,454.58,454.9,454.98,455.14,455.62,455.84,456.02,456.32,456.48,456.62,457.18,457.38,457.74,457.92,458.6,459.37,459.79,460.07,460.91,461.15,461.47,461.79,462.03,462.33,462.59,462.89,463.23,464.21,465.29]],[466.21,482.65,[466.21,466.31,466.67,467.17,467.49,467.81,467.91,468.41,468.65,469.13,469.49,469.57,469.79,470.33,470.61,470.8,471.2,471.36,471.52,472.08,472.34,472.74,472.9,473.48,474.12,474.5,474.76,478.08,478.68,478.94,479.18,479.42,479.68,479.94,480.2,480.54,481.84,482.65]],[483.49,499.0,[483.49,483.59,483.93,484.41,484.69,485.01,485.09,485.73,485.97,486.45,486.93,487.03,487.31,487.93,488.19,488.41,488.85,489.03,489.19,489.79,490.03,490.43,490.61,491.25,491.83,492.17,492.51,493.23,493.51,493.83,494.13,494.43,494.8,495.02,495.44,495.84,496.94,499.0]],[499.78,518.23,[499.78,499.88,500.22,500.74,501.06,501.4,501.5,502.16,502.44,503.0,503.44,503.52,503.82,504.6,504.9,505.08,505.64,505.78,505.96,506.55,506.83,507.17,507.33,508.01,508.61,509.07,509.55,511.73,512.27,512.57,512.81,513.05,513.35,513.57,513.93,514.33,516.01,518.23]]],[[519.58,529.66,[519.58,520.0,520.14,520.68,520.98,521.08,521.44,521.92,522.26,522.62,522.98,523.14,523.4,523.94,524.2,525.2,525.48,525.92,526.2,526.52,526.72,527.4,527.62,529.66]],[530.51,539.39,[530.51,530.87,531.01,531.47,531.77,531.87,532.17,532.61,532.91,533.27,533.59,533.75,534.01,534.51,534.75,535.79,536.07,536.43,536.67,536.95,537.13,537.73,537.95,539.39]],[540.17,551.72,[540.17,540.57,540.73,541.27,541.55,541.69,542.03,542.68,543.02,543.44,543.92,544.12,544.34,544.94,545.22,546.26,546.82,547.12,547.38,547.66,547.82,548.4,548.64,551.72]],[552.46,566.84,[552.46,552.96,553.14,556.03,556.77,556.87,557.25,557.77,558.13,558.55,558.99,559.11,560.09,560.65,560.93,562.03,562.53,562.85,563.13,563.41,563.63,564.33,564.55,566.84]],[567.5,578.31,[567.5,567.98,568.12,568.7,569.0,569.1,569.5,570.04,570.4,570.78,571.1,571.3,571.54,572.1,572.36,573.4,573.66,574.04,574.32,574.64,574.84,575.52,575.74,578.31]],[579.07,589.85,[579.07,579.55,579.69,580.27,580.55,580.65,581.13,581.67,582.03,582.43,582.81,583.17,583.23,583.79,584.05,585.07,585.31,585.67,585.93,586.23,586.45,587.19,587.41,589.85]],[590.56,605.31,[590.56,591.06,591.22,593.56,594.22,594.32,594.76,595.28,595.6,596.0,596.42,596.54,597.42,598.0,598.24,599.36,599.96,600.26,600.52,600.82,601.0,601.68,601.93,605.31]]],[[606.31,616.36,[606.31,606.53,606.65,606.99,607.15,607.49,607.67,607.75,607.87,608.21,608.43,608.55,608.67,608.95,609.19,609.45,610.03,610.11,610.19,610.55,610.73,610.95,611.13,611.23,611.29,613.57,613.82,614.14,614.28,615.02,615.18,616.36]],[617.18,630.11,[617.18,617.4,617.52,617.86,618.0,618.34,618.54,618.62,618.76,619.1,619.3,619.42,619.54,619.88,620.2,620.58,620.98,621.08,621.16,621.7,621.94,622.22,622.56,622.66,622.74,625.77,626.37,626.65,626.81,627.49,627.61,630.11]],[630.93,648.02,[630.93,631.21,631.35,631.99,632.21,632.71,632.99,633.09,633.45,633.85,634.25,634.41,634.59,634.99,635.41,635.85,636.31,636.41,636.51,637.05,637.31,637.64,637.96,638.06,638.14,642.92,643.58,643.9,644.08,644.92,645.08,648.02]]],[[648.74,658.17,[648.74,649.06,649.24,649.93,650.07,650.57,650.75,655.93,656.25,656.37,656.59,656.89,657.15,657.27,657.73,658.17]],[658.97,667.04,[658.97,659.33,659.53,660.33,660.49,660.97,661.15,664.74,665.08,665.2,665.38,665.68,665.96,666.06,666.64,667.04]],[667.82,678.39,[667.82,668.18,668.4,669.28,669.5,670.16,670.38,675.39,675.65,675.79,676.15,676.51,676.89,676.99,677.91,678.39]]],[[679.51,693.42,[679.51,680.23,680.53,681.39,681.71,682.27,683.53,685.01,685.3,686.46,687.5,688.58,689.04,689.52,689.6,690.3,690.62,691.26,691.5,692.28,692.52,693.42]],[694.58,706.05,[694.58,695.16,695.42,696.18,696.46,696.92,697.73,699.05,699.33,699.91,700.73,701.65,702.01,702.43,702.51,703.35,703.63,704.13,704.37,705.13,705.35,706.05]],[706.93,717.68,[706.93,707.39,707.61,708.23,708.49,708.87,709.2,710.4,710.64,711.06,712.18,713.28,713.62,714.12,714.12,714.88,715.14,715.62,715.86,716.66,716.88,717.68]]],[[719.42,744.52,[719.42,719.9,720.16,720.42,720.6,721.03,721.27,721.85,722.07,722.69,722.93,723.51,723.75,724.29,725.05,727.37,727.65,728.71,728.99,730.35,731.11,731.47,731.73,731.93,732.07,732.51,732.81,732.92,733.3,733.72,734.08,734.44,734.76,736.4,736.62,737.04,737.32,737.4,737.62,738.7,738.96,739.12,739.84,740.14,740.42,741.14,741.44,741.96,742.24,744.52]],[745.27,769.29,[745.27,745.81,746.09,746.33,746.49,746.87,747.05,747.55,747.75,748.27,748.47,748.97,749.19,749.63,749.83,751.03,751.25,751.89,752.15,752.77,753.61,753.95,754.21,754.39,754.53,754.93,755.21,755.31,758.3,758.76,759.1,759.56,760.66,762.62,763.22,763.68,763.96,764.04,764.36,765.06,765.34,765.5,766.1,766.34,766.54,767.2,767.46,767.96,768.18,769.29]],[770.01,795.55,[770.01,770.75,771.05,771.31,771.47,771.89,772.07,772.65,772.87,773.49,773.69,774.23,774.47,775.07,775.65,778.35,778.59,779.55,779.83,780.45,781.04,781.4,781.7,781.96,782.14,783.12,783.42,783.52,784.92,785.32,785.62,785.96,786.34,787.28,787.82,788.22,788.5,788.58,788.84,789.86,790.26,790.44,791.06,791.32,791.54,792.14,792.42,792.95,793.19,795.55]],[796.21,822.39,[796.21,796.67,796.93,797.17,797.33,797.75,797.95,798.65,798.89,799.57,799.83,800.43,800.81,801.59,802.29,804.27,804.56,805.36,805.74,806.46,807.12,807.48,807.76,807.98,808.14,808.66,808.98,809.08,810.9,811.32,811.66,812.04,813.24,814.66,815.38,815.84,816.12,816.22,816.51,817.75,818.05,818.23,818.97,819.23,819.45,820.05,820.35,820.87,821.11,822.39]]],[[823.15,827.73,[823.15,823.51,823.69,823.95,824.13,824.41,824.61,824.91,825.09,825.49,825.63,825.71,825.83,825.93,826.13,826.43,826.63,826.91,827.01,827.73]],[828.52,834.34,[828.52,828.9,829.04,829.32,829.48,829.78,829.98,830.32,830.48,830.88,831.04,831.12,831.26,831.38,832.52,832.9,833.14,833.48,833.56,834.34]],[835.18,842.49,[835.18,835.64,835.86,836.22,836.44,836.8,837.04,837.38,837.58,838.0,838.2,838.26,838.46,838.58,838.92,839.42,839.76,840.1,840.21,842.49]]],[[843.41,867.47,[843.41,843.87,844.05,844.21,844.35,844.89,845.05,845.89,846.47,846.83,847.03,847.51,847.67,848.57,849.17,849.51,849.67,849.87,850.05,850.65,850.83,851.39,851.73,852.08,852.16,852.76,853.02,853.54,853.8,855.5,856.16,856.52,856.72,857.16,857.44,857.98,858.42,859.6,859.84,860.64,861.72,862.38,863.74,864.05,864.45,864.87,865.17,865.33,865.47,867.47]]],[[868.37,916.99,[868.37,868.99,869.25,869.91,870.11,870.67,870.95,872.19,872.83,873.51,873.75,875.98,876.7,876.82,877.22,877.78,878.14,878.52,878.62,879.3,879.54,880.06,880.46,880.56,880.84,881.48,881.76,881.92,882.7,882.82,882.98,883.38,883.6,883.92,884.06,884.6,884.84,885.18,885.44,885.7,886.02,886.26,886.58,886.94,888.29,889.31,890.23,890.41,890.67,891.11,891.31,891.55,891.77,891.87,892.05,892.19,892.43,892.77,892.87,893.77,894.39,894.95,895.23,895.33,896.39,897.15,897.77,898.27,898.45,898.61,898.81,898.93,899.07,899.35,899.35,899.61,899.61,899.65,899.67,900.02,900.12,901.82,902.6,903.0,903.32,903.4,903.74,905.28,905.9,906.06,906.3,906.62,906.84,907.0,907.26,907.4,907.52,908.24,908.46,910.44,910.62,911.28,911.93,912.07,912.29,912.57,912.75,912.89,913.07,913.17,913.31,913.89,914.29,914.37,914.43,914.97,915.17,915.83,916.19,916.29,916.37,916.99]]],[[917.71,945.81,[917.71,918.29,918.81,919.43,919.59,920.13,920.37,920.93,921.19,921.47,921.67,923.98,924.72,925.86,926.74,927.12,927.38,927.98,928.24,928.56,928.84,929.24,929.36,931.28,932.1,932.64,932.98,933.7,934.32,935.14,935.73,936.77,937.31,940.33,941.15,941.67,941.85,942.01,942.21,942.33,942.49,942.75,942.99,943.09,943.31,943.65,943.89,944.31,944.61,944.69,945.09,945.81]]],[[946.53,959.08,[946.53,947.09,947.38,947.54,947.8,948.52,949.34,949.66,949.98,950.94,952.16,952.48,952.68,953.18,953.74,954.08,954.34,955.22,955.54,956.38,956.64,959.08]]],[[959.95,974.6,[959.95,960.79,961.47,961.57,961.95,962.41,962.75,962.87,963.29,963.39,963.55,964.09,964.65,964.71,964.85,965.49,965.89,966.01,966.23,966.87,967.15,967.87,968.15,968.77,969.17,969.27,969.75,970.59,970.91,971.09,971.98,972.34,972.52,973.16,973.4,973.78,973.96,974.6]]],[[975.4,990.41,[975.4,975.52,975.9,976.24,976.52,976.62,976.92,978.56,979.3,980.12,980.44,982.1,982.84,983.27,983.45,983.53,983.87,984.31,984.67,985.25,985.99,986.23,986.41,987.05,987.41,987.61,987.87,988.31,988.61,989.25,989.51,990.41]]],[[991.27,1020.52,[991.27,992.03,992.41,993.09,993.41,993.55,993.79,994.33,995.64,996.42,996.8,997.42,997.68,997.82,998.02,998.58,999.52,1000.32,1000.68,1001.3,1001.66,1001.78,1002.06,1002.62,1003.56,1003.66,1003.96,1004.4,1004.72,1005.12,1005.52,1006.12,1006.72,1007.29,1007.59,1007.89,1008.07,1008.39,1008.61,1008.77,1009.03,1009.19,1009.33,1009.91,1010.13,1010.89,1011.45,1012.05,1012.27,1012.45,1012.67,1012.79,1012.99,1014.37,1014.57,1015.25,1015.83,1015.93,1017.61,1018.11,1018.43,1018.83,1019.32,1020.52]],[1021.14,1047.06,[1021.14,1021.78,1022.14,1022.74,1023.06,1023.2,1023.48,1024.0,1024.66,1025.28,1025.62,1026.18,1026.44,1026.54,1026.82,1027.36,1027.88,1028.48,1028.8,1029.58,1029.98,1030.1,1030.36,1030.91,1031.59,1031.69,1032.03,1032.55,1032.89,1033.27,1033.69,1034.21,1034.77,1035.29,1035.65,1035.93,1036.13,1036.49,1036.69,1036.85,1037.11,1037.25,1037.37,1037.95,1038.15,1038.89,1039.37,1039.91,1040.11,1040.27,1040.49,1040.61,1040.83,1041.53,1041.77,1042.55,1043.12,1043.22,1043.56,1044.08,1044.4,1044.78,1045.2,1047.06]],[1047.64,1079.25,[1047.64,1048.14,1048.48,1049.1,1049.4,1049.52,1049.88,1050.4,1050.96,1051.54,1051.86,1052.52,1052.92,1053.04,1053.34,1053.92,1054.73,1055.25,1055.55,1056.21,1056.61,1056.73,1056.99,1057.57,1057.99,1058.09,1060.17,1060.73,1061.09,1061.47,1061.91,1063.17,1063.77,1064.25,1064.53,1064.81,1065.03,1065.35,1065.57,1065.75,1065.99,1066.13,1066.27,1066.9,1067.1,1067.86,1068.34,1068.78,1068.98,1069.12,1069.34,1069.46,1069.66,1070.24,1070.44,1071.1,1071.64,1071.76,1074.74,1075.28,1075.62,1076.06,1076.6,1079.25]]],[[1080.03,1110.73,[1080.03,1080.49,1080.73,1080.95,1081.11,1081.55,1081.69,1082.07,1082.25,1083.13,1083.39,1083.45,1083.51,1084.03,1084.21,1085.01,1085.63,1086.07,1086.25,1086.49,1086.65,1087.05,1087.17,1087.49,1087.63,1088.41,1088.59,1088.71,1088.85,1089.19,1089.37,1090.19,1090.54,1091.0,1091.2,1092.04,1092.92,1093.44,1093.62,1093.92,1094.06,1094.98,1095.62,1096.3,1096.44,1097.34,1098.14,1098.72,1098.94,1099.54,1099.74,1099.84,1099.98,1100.2,1100.42,1100.8,1100.98,1101.22,1101.38,1101.76,1101.94,1102.18,1102.33,1102.81,1102.99,1103.21,1103.33,1104.17,1104.43,1104.71,1105.07,1105.67,1106.69,1107.21,1107.41,1108.37,1108.63,1108.71,1108.95,1109.65,1109.87,1110.03,1110.25,1110.73]]],[[1111.73,1141.42,[1111.73,1112.43,1112.67,1113.13,1113.27,1114.86,1115.12,1115.76,1116.24,1116.72,1116.88,1117.36,1117.56,1118.72,1119.48,1119.58,1119.84,1120.26,1120.56,1120.94,1121.3,1122.96,1123.6,1123.82,1124.06,1124.28,1124.6,1124.94,1125.32,1126.87,1127.63,1127.95,1128.13,1128.29,1128.51,1128.63,1128.83,1129.07,1129.29,1129.67,1130.43,1130.63,1130.77,1130.99,1131.15,1132.17,1132.45,1133.33,1133.89,1134.07,1134.23,1134.73,1134.97,1135.15,1135.37,1135.77,1136.07,1138.84,1139.16,1139.22,1139.42,1140.04,1140.46,1140.66,1140.92,1141.42]]],[[1142.18,1179.93,[1142.18,1143.02,1143.42,1143.68,1143.94,1144.38,1145.66,1145.78,1146.2,1147.0,1147.32,1147.76,1148.28,1149.86,1150.67,1151.65,1152.21,1152.65,1152.83,1153.43,1154.11,1154.51,1154.71,1154.95,1155.27,1155.79,1156.03,1156.81,1157.07,1157.15,1157.23,1158.13,1158.93,1159.25,1159.45,1159.61,1159.85,1159.97,1160.13,1160.41,1160.71,1160.81,1161.15,1161.77,1162.48,1162.94,1163.16,1163.32,1163.58,1164.52,1164.8,1165.22,1165.98,1169.74,1169.74,1169.9,1169.98,1171.4,1172.4,1173.0,1173.2,1173.32,1174.21,1174.73,1175.09,1175.17,1175.41,1175.89,1176.03,1177.45,1177.77,1178.17,1178.67,1179.93]]],[[1181.11,1186.58,[1181.11,1181.81,1181.97,1186.58]],[1187.48,1191.46,[1187.48,1188.26,1188.42,1191.46]],[1192.36,1195.16,[1192.36,1193.1,1193.24,1195.16]],[1195.94,1198.87,[1195.94,1196.7,1196.84,1198.87]],[1199.71,1204.49,[1199.71,1200.49,1200.59,1204.49]],[1205.17,1208.15,[1205.17,1205.93,1206.07,1208.15]],[1208.83,1212.76,[1208.83,1209.64,1209.8,1212.76]],[1213.36,1218.1,[1213.36,1214.18,1214.3,1218.1]],[1218.82,1223.17,[1218.82,1219.6,1219.7,1223.17]],[1223.79,1228.01,[1223.79,1224.55,1224.67,1228.01]],[1228.63,1237.06,[1228.63,1229.55,1229.67,1237.06]]],[[1239.98,1255.53,[1239.98,1240.7,1240.88,1241.6,1241.88,1242.96,1243.7,1244.08,1244.36,1245.1,1245.79,1246.33,1246.99,1247.53,1248.23,1248.73,1248.99,1249.67,1250.39,1253.19,1253.43,1255.53]],[1256.35,1271.15,[1256.35,1257.13,1257.32,1258.1,1258.38,1259.5,1260.12,1260.48,1260.78,1261.46,1262.04,1262.52,1263.14,1263.68,1264.42,1265.0,1265.28,1265.9,1266.46,1267.86,1268.1,1271.15]],[1271.91,1288.64,[1271.91,1272.65,1272.83,1273.87,1274.15,1275.25,1276.05,1276.45,1276.71,1277.41,1278.07,1278.61,1279.01,1279.65,1280.29,1280.89,1281.16,1281.88,1282.68,1286.46,1286.72,1288.64]]],[[1289.46,1297.35,[1289.46,1289.9,1290.12,1290.36,1290.54,1290.96,1291.16,1291.56,1291.76,1292.36,1292.97,1293.47,1293.85,1294.51,1295.35,1296.25,1296.33,1297.35]]],[[1298.83,1301.59,[1298.83,1299.57,1299.73,1300.33,1300.59,1301.59]],[1302.19,1304.94,[1302.19,1302.95,1303.13,1303.73,1303.99,1304.94]],[1305.54,1308.3,[1305.54,1306.34,1306.52,1307.1,1307.36,1308.3]],[1308.92,1311.74,[1308.92,1309.74,1309.92,1310.56,1310.8,1311.74]],[1312.36,1316.54,[1312.36,1313.22,1313.4,1314.24,1314.5,1316.54]]],[[1316.95,1325.33,[1316.95,1318.53,1319.99,1320.73,1320.99,1321.75,1321.99,1322.87,1323.17,1324.45,1324.85,1325.33]],[1326.13,1331.96,[1326.13,1326.93,1327.09,1327.89,1328.13,1328.94,1329.18,1330.16,1330.42,1331.22,1331.52,1331.96]],[1332.78,1344.41,[1332.78,1333.68,1333.86,1334.58,1334.86,1335.64,1335.84,1337.84,1338.56,1341.37,1341.73,1344.41]]],[[1345.87,1363.3,[1345.87,1345.99,1346.33,1346.85,1347.17,1347.49,1347.57,1348.29,1348.55,1349.15,1349.63,1349.73,1350.03,1350.63,1350.93,1351.11,1351.95,1352.11,1352.29,1352.98,1353.24,1353.66,1353.84,1355.04,1355.74,1356.02,1356.32,1356.58,1356.96,1357.22,1357.6,1358.02,1359.18,1363.3]],[1364.75,1381.42,[1364.75,1364.85,1365.23,1365.77,1366.11,1366.45,1366.55,1367.23,1367.49,1368.05,1368.53,1368.63,1368.93,1369.57,1369.89,1370.05,1370.79,1370.93,1371.11,1371.79,1372.07,1372.45,1372.63,1374.61,1375.21,1375.53,1375.83,1376.09,1376.64,1376.98,1377.4,1377.94,1379.66,1381.42]]],[[1382.4,1388.24,[1382.4,1383.32,1383.82,1384.16,1384.38,1385.08,1385.32,1385.58,1385.88,1386.68,1387.28,1388.24]],[1389.07,1393.93,[1389.07,1389.63,1389.89,1390.11,1390.35,1390.95,1391.17,1391.39,1391.65,1392.37,1392.73,1393.93]],[1394.61,1399.55,[1394.61,1395.15,1395.43,1395.65,1395.93,1396.57,1396.75,1396.97,1397.21,1397.93,1398.43,1399.55]],[1400.26,1405.74,[1400.26,1400.92,1401.22,1401.44,1401.7,1402.34,1402.56,1402.78,1403.04,1403.76,1404.02,1405.74]],[1406.4,1412.23,[1406.4,1406.92,1407.22,1407.46,1407.7,1408.34,1408.54,1408.74,1408.96,1409.72,1409.98,1412.23]],[1413.05,1418.81,[1413.05,1413.65,1413.93,1414.17,1414.65,1415.45,1415.69,1415.93,1416.19,1417.03,1417.33,1418.81]],[1419.53,1426.26,[1419.53,1420.29,1420.65,1420.97,1421.21,1422.09,1422.31,1422.57,1422.85,1423.61,1423.97,1426.26]],[1426.94,1432.8,[1426.94,1427.48,1427.74,1427.98,1428.24,1428.88,1429.08,1429.32,1429.62,1430.36,1430.64,1432.8]],[1433.46,1440.65,[1433.46,1433.96,1434.22,1434.48,1434.68,1435.22,1435.42,1435.68,1436.09,1436.93,1437.23,1440.65]],[1441.45,1449.84,[1441.45,1442.07,1442.41,1442.69,1443.07,1443.85,1444.13,1444.39,1444.79,1445.81,1446.19,1449.84]]]]}</script>
+<script>
+"use strict";
+const PAGE = {"id": "sabah", "other": "masa", "duration": 1464.53, "themeColor": "#14254A", "audioBytes": 12013865, "audioMB": 12, "short": {"uz": "Ertalabki", "uzc": "Эрталабки", "ru": "Утренние"}};
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const ITEMS = DATA.items, TIM = DATA.timing;   // TIM[i] = [[t0,t1,[s,e,s,e,...]], ...] per repetition
+const $ = (s, e = document) => e.querySelector(s), $$ = (s, e = document) => [...e.querySelectorAll(s)];
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+const root = document.documentElement;
+
+/* ----------------------------------------------------------------- Uzbek Latin -> Cyrillic */
+const DOTTED = { "ḥ": "ҳ̣", "Ḥ": "Ҳ̣", "ż": "з̇", "Ż": "З̇", "ṡ": "с̇", "Ṡ": "С̇", "ṣ": "с̣", "Ṣ": "С̣",
+  "ḍ": "д̣", "Ḍ": "Д̣", "ṭ": "т̣", "Ṭ": "Т̣", "ẓ": "з̣", "Ẓ": "З̣" };
+const PAIR = { sh: "ш", ch: "ч", ya: "я", yo: "ё", yu: "ю", ye: "е", ts: "ц" };
+const ONE = { a: "а", b: "б", d: "д", e: "е", f: "ф", g: "г", h: "ҳ", i: "и", j: "ж", k: "к", l: "л", m: "м", n: "н", o: "о",
+  p: "п", q: "қ", r: "р", s: "с", t: "т", u: "у", v: "в", x: "х", y: "й", z: "з", c: "к", w: "в" };
+const LET = /[A-Za-zḥḤżŻṡṠṣṢḍḌṭṬẓẒ]/, OKUR = /[ʻ‘]/, TUT = /[ʼ’']/;
+const cap = (s, o) => (o[0] !== o[0].toLowerCase() ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+function toCyr(t) {
+  let n = "", i = 0;
+  while (i < t.length) {
+    const c = t[i];
+    if (c === "<") { const j = t.indexOf(">", i); if (j > -1) { n += t.slice(i, j + 1); i = j + 1; continue; } }
+    if (c === "&") { const j = t.indexOf(";", i); if (j > -1 && j - i < 9) { n += t.slice(i, j + 1); i = j + 1; continue; } }
+    if (DOTTED[c]) { n += DOTTED[c]; i++; continue; }
+    if (!LET.test(c)) {
+      if (TUT.test(c) && i > 0 && LET.test(t[i - 1])) { n += "ъ"; i++; continue; }
+      n += c; i++; continue;
+    }
+    const lo = c.toLowerCase(), nx = t[i + 1] || "";
+    const start = i === 0 || !LET.test(t[i - 1]);
+    if ((lo === "o" || lo === "g") && OKUR.test(nx)) { n += cap(lo === "o" ? "ў" : "ғ", c); i += 2; continue; }
+    if (lo === "y" && (nx === "y" || nx === "Y")) { n += cap("йй", c); i += 2; continue; }
+    const two = (c + nx).toLowerCase();
+    if (PAIR[two] && !OKUR.test(t[i + 2] || "")) {
+      if (two === "ye" && !start && !/[aeiouаеёиоуўэюя]/i.test(t[i - 1])) { n += cap("йе", c); i += 2; continue; }
+      n += cap(PAIR[two], c); i += 2; continue;
+    }
+    if (lo === "e") { n += cap(start ? "э" : "е", c); i++; continue; }
+    n += cap(ONE[lo] || c, c); i++;
+  }
+  return n;
+}
+
+/* ----------------------------------------------------------------- UI strings */
+const STR = {"uz": {"sabahTitle": "Ertalabki azkorlar", "masaTitle": "Kechki azkorlar", "sabahLead": "Paygʻambarimiz ﷺ oʻrgatgan tong zikrlari. Qori bilan birga oʻqing — har bir soʻz aytilayotgan paytda yonib turadi.", "masaLead": "Paygʻambarimiz ﷺ oʻrgatgan kechki zikrlar. Qori bilan birga oʻqing — har bir soʻz aytilayotgan paytda yonib turadi.", "sabahWhen": "Eng afzal vaqti: bomdoddan quyosh chiqquncha", "masaWhen": "Eng afzal vaqti: asrdan shomgacha", "sabahSub": "Tongni zikr bilan boshlang", "masaSub": "Kunni zikr bilan yakunlang", "sabahNow": "Hozir ertalabki azkorlar vaqti", "masaNow": "Hozir kechki azkorlar vaqti", "ringOf": "{n} tadan", "endTitle": "Alloh bizdan ham, sizdan ham qabul qilsin", "endText": "Hammasiga ulgurmasangiz ham, bir qismini har kuni davom ettiring. Oz boʻlsa ham, doimiysi afzal.", "settings": "Sozlamalar", "theme": "Koʻrinish", "theme_auto": "Avto", "theme_light": "Kunduzgi", "theme_dark": "Tungi", "arSize": "Arabcha matn oʻlchami", "showTl": "Talaffuzni koʻrsatish", "showMn": "Tarjimani koʻrsatish", "showHl": "Qiroat paytida soʻzlarni yoritish", "offline": "Internetsiz ishlatish", "offlineSub": "Audio ({mb} MB) telefonga saqlanadi — keyin internet kerak emas.", "offlineGo": "Yuklab olish", "offlineReady": "Saqlangan ✓", "offlineProg": "Yuklanmoqda… {p}%", "offlineFail": "Yuklab boʻlmadi. Internetni tekshirib, qayta urinib koʻring.", "install": "Bosh ekranga qoʻshish", "installHow": "Qanday?", "installIOS": "Safari’da «Ulashish» tugmasini bosing, soʻng «Bosh ekranga» bandini tanlang.", "installAndroid": "Brauzer menyusini (⋮) oching va «Bosh ekranga qoʻshish»ni tanlang.", "installPitch": "Ilova sifatida oʻrnating — bir bosishda ochiladi, internetsiz ham ishlaydi.", "installBtn": "Oʻrnatish", "resetDay": "Bugungi hisobni tozalash", "resetDone": "Bugungi hisob tozalandi", "follow": "Kuzatish", "free": "Erkin", "followOn": "Kuzatish: sahifa qiroat ortidan oʻzi siljiydi", "freeOn": "Erkin: sahifani oʻzingiz boshqarasiz", "backToFollow": "Qiroatga qaytish", "nowReading": "Hozir {n}-zikr oʻqilmoqda", "liveRep": "Hozir oʻqilmoqda · {k}/{n}-takror", "liveNow": "Hozir oʻqilmoqda", "reciter": "Qori: Ahmad an-Nufays", "reciterName": "Ahmad an-Nufays", "readMark": "Oʻqidim", "readDone": "Oʻqildi ✓", "countAria": "Sanash", "loop": "Shu zikrni takrorlab tinglash", "loopOn": "{n}-zikr takrorlanadi", "loopOff": "Takrorlash oʻchirildi", "playHere": "Shu yerdan tinglash", "reset": "Hisobni qaytarish", "virtue": "Fazilati", "explain": "Sharhi", "noAudio": "Audioda yoʻq — oʻzingiz oʻqing", "audioEnds": "Audio shu yerda tugaydi. Qolgan zikrlarni oʻzingiz oʻqing.", "times": "{n} marta", "keyTitle": "Talaffuz belgilari", "sources": "Manbalar", "autoCount": "Audio bilan birga sanash", "autoCountSub": "Tinglab chiqqan har bir takror hisobga avtomatik qoʻshiladi"}, "ru": {"sabahTitle": "Утренние азкары", "masaTitle": "Вечерние азкары", "sabahLead": "Утренние поминания, которым научил Пророк ﷺ. Читайте вместе с чтецом — каждое слово подсвечивается в момент произнесения.", "masaLead": "Вечерние поминания, которым научил Пророк ﷺ. Читайте вместе с чтецом — каждое слово подсвечивается в момент произнесения.", "sabahWhen": "Лучшее время: от фаджра до восхода солнца", "masaWhen": "Лучшее время: от асра до магриба", "sabahSub": "Начните утро с поминания", "masaSub": "Завершите день поминанием", "sabahNow": "Сейчас время утренних азкаров", "masaNow": "Сейчас время вечерних азкаров", "ringOf": "из {n}", "endTitle": "Да примет Аллах от нас и от вас", "endText": "Если не успеваете прочитать всё, держитесь хотя бы части каждый день. Пусть немного, но постоянно — это лучше.", "settings": "Настройки", "theme": "Оформление", "theme_auto": "Авто", "theme_light": "Светлое", "theme_dark": "Тёмное", "arSize": "Размер арабского текста", "showTl": "Показывать транслитерацию", "showMn": "Показывать перевод", "showHl": "Подсвечивать слова при чтении", "offline": "Работа без интернета", "offlineSub": "Аудио ({mb} МБ) сохранится на телефоне — дальше интернет не нужен.", "offlineGo": "Скачать", "offlineReady": "Сохранено ✓", "offlineProg": "Загрузка… {p}%", "offlineFail": "Не удалось скачать. Проверьте интернет и попробуйте снова.", "install": "Добавить на главный экран", "installHow": "Как?", "installIOS": "В Safari нажмите «Поделиться», затем «На экран „Домой“».", "installAndroid": "Откройте меню браузера (⋮) и выберите «Добавить на главный экран».", "installPitch": "Установите как приложение — открывается в одно касание и работает без интернета.", "installBtn": "Установить", "resetDay": "Сбросить сегодняшний счёт", "resetDone": "Счёт за сегодня сброшен", "follow": "Следовать", "free": "Свободно", "followOn": "Следовать: страница сама прокручивается за чтецом", "freeOn": "Свободно: вы листаете страницу сами", "backToFollow": "Вернуться к чтению", "nowReading": "Сейчас читается зикр {n}", "liveRep": "Сейчас читается · повтор {k} из {n}", "liveNow": "Сейчас читается", "reciter": "Чтец: Ахмад ан-Нуфайс", "reciterName": "Ахмад ан-Нуфайс", "readMark": "Прочитал(а)", "readDone": "Прочитано ✓", "countAria": "Счёт", "loop": "Повторять этот зикр", "loopOn": "Зикр {n} повторяется", "loopOff": "Повтор выключен", "playHere": "Слушать отсюда", "reset": "Сбросить счёт", "virtue": "Достоинство", "explain": "Разъяснение", "noAudio": "Нет в аудио — прочитайте сами", "audioEnds": "Аудио заканчивается здесь. Остальные зикры прочитайте сами.", "times": "{n} раз", "keyTitle": "Знаки транслитерации", "sources": "Источники", "autoCount": "Считать вместе с аудио", "autoCountSub": "Каждый прослушанный повтор засчитывается автоматически"}, "keyUz": [["ḥ", "boʻgʻizdan chiqadigan «h» (ح) — oddiy «h» dan chuqurroq"], ["x", "«x» tovushi (خ)"], ["ṡ", "til uchi tishlar orasida aytiladigan «s» (ث)"], ["ż", "til uchi tishlar orasida aytiladigan «z» (ذ)"], ["ṣ ḍ ṭ ẓ", "yoʻgʻon, toʻliq ogʻiz bilan aytiladigan tovushlar (ص ض ط ظ)"], ["gʻ", "«gʻ» tovushi (غ)"], ["q", "«q» tovushi (ق)"], ["ʼ", "boʻgʻiz toʻxtami — ayn va hamza (ع ء)"]], "keyRu": [["ḥ", "гортанное «х» (ح) — глубже обычного «х»"], ["х", "звук «х» (خ)"], ["ṡ", "межзубное «с» — кончик языка между зубами (ث)"], ["ż", "межзубное «з» — кончик языка между зубами (ذ)"], ["ṣ ḍ ṭ ẓ", "твёрдые (эмфатические) звуки (ص ض ط ظ)"], ["ġ", "картавое «г» (غ)"], ["q", "глубокое гортанное «к» (ق)"], ["ʼ", "гортанная смычка — айн и хамза (ع ء)"]], "srcUz": ["Qiroat: Ahmad an-Nufays. Azkorlarning tartibi shu qiroatga muvofiq.", "Arabcha matn va hadis manbalari: lifewithallah.com, Imom Navaviyning «al-Azkor» va «Hisnul-Muslim» toʻplamlari.", "Qurʼon oyatlari tarjimasi: Shayx Muhammad Sodiq Muhammad Yusuf rohimahulloh.", "Hadis raqamlari mashhur nashrlarga koʻra; boshqa nashrlarda farq qilishi mumkin.", "Sharhlar shu ilova uchun yozildi. Xato koʻrsangiz, iltimos, xabar bering."], "srcRu": ["Чтец: Ахмад ан-Нуфайс. Порядок азкаров соответствует этому чтению.", "Арабский текст и источники хадисов: lifewithallah.com, «аль-Азкар» имама ан-Навави и «Хисн аль-муслим».", "Перевод аятов Корана: Эльмир Кулиев.", "Номера хадисов — по известным изданиям; в других изданиях могут отличаться.", "Разъяснения написаны для этого приложения. Если заметите ошибку, пожалуйста, сообщите."]};
+let LANG = root.dataset.lang;
+const T = (k, vars) => {
+  const base = LANG === "ru" ? STR.ru : STR.uz;
+  let s = base[k] ?? STR.uz[k] ?? k;
+  if (vars) for (const v in vars) s = s.replace("{" + v + "}", vars[v]);
+  return LANG === "uzc" ? toCyr(s) : s;
+};
+const L = (o) => (LANG === "ru" ? o.ru : o.uz);
+const tx = (s) => (LANG === "uzc" ? toCyr(s) : s);
+function timesLabel(n) {
+  if (LANG !== "ru") return T("times", { n });
+  const a = n % 10, b = n % 100;
+  return n + (a === 1 && b !== 11 ? " раз" : a >= 2 && a <= 4 && (b < 12 || b > 14) ? " раза" : " раз");
+}
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const saw = (h) => h.replace(/ﷺ/g, '<span class="saw" role="img" aria-label="ﷺ">ﷺ</span>');
+const escS = (s) => saw(esc(s));
+const paras = (s) => saw(esc(s)).split("\n\n").map((p) => "<p>" + p.split("\n").join("<br>") + "</p>").join("");
+
+/* ----------------------------------------------------------------- state */
+const _d = new Date(), DAYKEY = "azkor:" + PAGE.id + ":" + _d.getFullYear() + "-" + (_d.getMonth() + 1) + "-" + _d.getDate();
+const S = {
+  counts: store.get(DAYKEY, {}) || {},
+  mode: store.get("azkor:mode", "follow"),
+  rate: store.get("azkor:rate", 1),
+  scale: store.get("azkor:scale", 1),
+  tl: store.get("azkor:tl", true), mn: store.get("azkor:mn", true), hl: store.get("azkor:hl", true), ac: store.get("azkor:ac", true),
+  live: -1, rep: -1, word: -1, loop: -1, followHold: false
+};
+const isDone = (i) => (S.counts[i] || 0) >= ITEMS[i].n;
+
+/* ----------------------------------------------------------------- render */
+const AR_LETTER = /[ء-يٱ-ۓ]/;
+function arabicHTML(item, i) {
+  let w = 0;
+  return item.ar.map((para) => {
+    const bism = /^(بِسْمِ اللّٰهِ الرَّحْمٰنِ|أَعُوْذُ بِاللّٰهِ مِنَ)/.test(para) && para.length < 60;
+    const html = para.split(" ").map((tok) =>
+      AR_LETTER.test(tok) ? `<span class="w" data-w="${w++}"><span>${esc(tok)}</span></span>` : esc(tok)).join(" ");
+    return `<p${bism ? ' class="bism"' : ""}>${html}</p>`;
+  }).join("");
+}
+const icon = (id, cls = "i", st = "") => `<svg class="${cls}"${st ? ` style="${st}"` : ""}><use href="#${id}"/></svg>`;
+
+function render() {
+  const firstNoAudio = ITEMS.findIndex((x) => !x.audio);
+  $("#list").innerHTML = ITEMS.map((it, i) => {
+    const t = L(it), n = it.n;
+    const beads = n > 1 ? (n <= 20 ? `<div class="beads" aria-hidden="true">${"<i class=\"bead\"></i>".repeat(n)}</div>`
+      : `<div class="bar100" aria-hidden="true"><i></i></div>`) : `<div class="beads"></div>`;
+    const note = i === firstNoAudio ? `<div class="noaudio-note">${T("audioEnds")}</div>` : "";
+    return `${note}<article class="card" id="z${i + 1}" data-i="${i}">
+      <div class="head"><span class="num">${i + 1}</span><h2>${escS(tx(t.t))}</h2><span class="times">${esc(timesLabel(n))}</span></div>
+      <div class="live-tag"><span class="eq"><i></i><i></i><i></i></span><span class="lt"></span></div>
+      ${it.audio ? "" : `<span class="badge-na">${T("noAudio")}</span>`}
+      <div class="ar" lang="ar" dir="rtl">${arabicHTML(it, i)}</div>
+      <div class="tl" lang="${LANG === "ru" ? "ru" : "uz"}">${paras(tx(t.tr))}</div>
+      <div class="mn">${paras(tx(t.mn))}${t.q ? `<span class="src">${escS(tx(t.q))}</span>` : ""}</div>
+      <div class="act">
+        <button class="tap" data-act="count" aria-label="${esc(T("countAria"))}"></button>${beads}
+        <div class="more">
+          ${it.audio ? `<button data-act="loop" aria-pressed="false" title="${esc(T("loop"))}" aria-label="${esc(T("loop"))}">${icon("i-loop")}</button>
+          <button data-act="play" title="${esc(T("playHere"))}" aria-label="${esc(T("playHere"))}">${icon("i-playline")}</button>` : ""}
+          <button data-act="reset" title="${esc(T("reset"))}" aria-label="${esc(T("reset"))}">${icon("i-reset")}</button>
+        </div>
+      </div>
+      <details><summary>${icon("i-chev", "chev")}${T("virtue")}</summary>
+        <div class="inner">${paras(tx(t.f))}<span class="cite">${esc(tx(t.m))}</span></div></details>
+      <details><summary>${icon("i-chev", "chev")}${T("explain")}</summary>
+        <div class="inner"><ul>${t.s.map((x) => `<li>${escS(tx(x))}</li>`).join("")}</ul></div></details>
+    </article>`;
+  }).join("");
+  $("#rail").innerHTML = ITEMS.map((it, i) =>
+    `<button class="chip${it.audio ? "" : " noaudio"}" data-i="${i}" aria-label="${i + 1}. ${esc(tx(L(it).t))}">${i + 1}</button>`).join("");
+  CARDS = $$(".card"); CHIPS = $$(".chip");
+  WORDS = CARDS.map((c) => $$(".w", c));
+  ITEMS.forEach((_, i) => drawCount(i));
+  renderChrome();
+  if (S.live >= 0) { const l = S.live, r = S.rep; S.live = -1; setLive(l, r); }
+  if (S.loop >= 0) $(`[data-act="loop"]`, CARDS[S.loop]).setAttribute("aria-pressed", "true");
+}
+let CARDS = [], CHIPS = [], WORDS = [];
+
+function renderChrome() {
+  const title = T(PAGE.id + "Title");
+  document.title = title;
+  $("#brandName").textContent = title; $("#brandShort").textContent = PAGE.short[LANG]; $("#heroTitle").textContent = title;
+  $("#heroLead").innerHTML = escS(T(PAGE.id + "Lead")); $("#heroWhen").textContent = T(PAGE.id + "When");
+  $("#ringLbl").textContent = T("ringOf", { n: ITEMS.length });
+  $("#endTitle").textContent = T("endTitle"); $("#endText").textContent = T("endText");
+  $("#otherTitle").textContent = T(PAGE.other + "Title"); $("#otherSub").textContent = T(PAGE.other + "Sub");
+  $("#otherLink").href = PAGE.other + ".html";
+  $$(".seg [data-l]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.l === LANG)));
+  $("#setTitle").textContent = T("settings");
+  $("#sTheme").textContent = T("theme");
+  $$("#themeSeg button").forEach((b) => { b.textContent = T("theme_" + b.dataset.t); b.setAttribute("aria-pressed", String(b.dataset.t === root.dataset.theme)); });
+  $("#sAc span").textContent = T("autoCount"); $("#sAc small").textContent = T("autoCountSub");
+  $("#sSize").textContent = T("arSize"); $("#sTl").textContent = T("showTl"); $("#sMn").textContent = T("showMn"); $("#sHl").textContent = T("showHl");
+  $("#sOff").textContent = T("offline"); $("#sOffSub").textContent = T("offlineSub", { mb: PAGE.audioMB });
+  $("#sInst").textContent = T("install"); $("#instBtn").textContent = T("installHow");
+  $("#sReset").textContent = T("resetDay"); $("#resetBtn").setAttribute("aria-label", T("resetDay"));
+  $("#modeLbl").textContent = S.mode === "follow" ? T("follow") : T("free");
+  $("#foot").innerHTML = footerHTML();
+  updateRing(); updateNow(); offlineState(); hintTime();
+}
+function footerHTML() {
+  const key = (LANG === "ru" ? STR.keyRu : STR.keyUz).map(([a, b]) => `<dt>${esc(LANG === "uzc" ? toCyr(a) : a)}</dt><dd>${esc(tx(b))}</dd>`).join("");
+  const src = (LANG === "ru" ? STR.srcRu : STR.srcUz).map((s) => `<li>${esc(tx(s))}</li>`).join("");
+  return `<h4>${T("keyTitle")}</h4><dl class="key">${key}</dl><h4>${T("sources")}</h4><ul>${src}</ul>`;
+}
+
+/* ----------------------------------------------------------------- counters & progress */
+function drawCount(i) {
+  const c = CARDS[i], n = ITEMS[i].n, v = Math.min(S.counts[i] || 0, n), tap = $(".tap", c);
+  if (n === 1) tap.textContent = v ? T("readDone") : T("readMark");
+  else tap.textContent = v + " / " + n;
+  tap.classList.toggle("full", v >= n);
+  $$(".bead", c).forEach((b, k) => b.classList.toggle("on", k < v));
+  const bar = $(".bar100 i", c); if (bar) bar.style.width = (100 * v / n) + "%";
+  c.classList.toggle("done", v >= n); CHIPS[i].classList.toggle("done", v >= n);
+}
+function bump(i, d, quiet) {
+  const n = ITEMS[i].n; let v = S.counts[i] || 0;
+  if (d === 0) v = 0; else if (n === 1) v = v ? 0 : 1; else if (v < n) v++;
+  S.counts[i] = v; store.set(DAYKEY, S.counts); drawCount(i); updateRing();
+  if (navigator.vibrate && d && !quiet) navigator.vibrate(v >= n ? [12, 40, 12] : 8);
+}
+function updateRing() {
+  const d = ITEMS.filter((_, i) => isDone(i)).length;
+  $("#ringNum").textContent = d;
+  $("#ringPr").style.strokeDashoffset = 232.5 * (1 - d / ITEMS.length);
+}
+
+/* ----------------------------------------------------------------- audio sync */
+const audio = $("#audio");
+const SEGS = [];   // flattened, time-sorted: [t0, t1, item, rep]
+TIM.forEach((reps, i) => reps.forEach((r, k) => SEGS.push([r[0], r[1], i, k])));
+SEGS.sort((a, b) => a[0] - b[0]);
+const firstT = (i) => (TIM[i] && TIM[i].length ? TIM[i][0][0] : null);
+function locate(t) {          // -> {i, r, w, p} or null
+  let lo = 0, hi = SEGS.length - 1, k = -1;
+  while (lo <= hi) { const m = (lo + hi) >> 1; if (SEGS[m][0] <= t + 0.12) { k = m; lo = m + 1; } else hi = m - 1; }
+  if (k < 0) return null;
+  const [t0, t1, i, r] = SEGS[k];
+  const next = SEGS[k + 1] ? SEGS[k + 1][0] : Infinity;
+  if (t > t1 + Math.min(1.2, (next - t1) * 0.6)) return { i, r, w: -1, p: 0, gap: true };
+  const ws = TIM[i][r][2]; let a = 0, b = ws.length / 2 - 1, w = 0;
+  while (a <= b) { const m = (a + b) >> 1; if (ws[2 * m] <= t + 0.06) { w = m; a = m + 1; } else b = m - 1; }
+  const s = ws[2 * w], e = Math.max(ws[2 * w + 1], s + 0.12);
+  return { i, r, w, p: Math.max(0, Math.min(1, (t - s) / (e - s))) };
+}
+function setLive(i, r) {
+  if (S.live === i && S.rep === r) return;
+  if (S.live >= 0 && CARDS[S.live]) {
+    CARDS[S.live].classList.remove("live"); CHIPS[S.live].classList.remove("live");
+    WORDS[S.live].forEach((w) => w.classList.remove("past", "now"));
+  }
+  const changedItem = S.live !== i;
+  S.fresh = changedItem;
+  S.live = i; S.rep = r; S.word = -1;
+  if (i < 0) { updateNow(); return; }
+  CARDS[i].classList.add("live"); CHIPS[i].classList.add("live");
+  WORDS[i].forEach((w) => w.classList.remove("past", "now"));
+  const reps = TIM[i].length;
+  $(".lt", CARDS[i]).textContent = reps > 1 ? T("liveRep", { k: r + 1, n: reps }) : T("liveNow");
+  if (changedItem) {
+    const rail = $("#rail"), c = CHIPS[i];
+    rail.scrollTo({ left: c.offsetLeft - rail.clientWidth / 2 + c.offsetWidth / 2, behavior: smooth() });
+    mediaMeta();
+    if (!audio.paused) followCard(i);
+  }
+  updateNow();
+}
+function setWord(w, p) {
+  const ws = WORDS[S.live];
+  if (w !== S.word) {
+    ws.forEach((el, k) => { el.classList.toggle("past", k < w); el.classList.toggle("now", k === w); if (k !== w) el.style.removeProperty("--p"); });
+    S.word = w;
+    if (w >= 0 && !(w === 0 && S.fresh)) follow(ws[w]);
+    S.fresh = false;
+  }
+  if (w >= 0 && ws[w]) ws[w].style.setProperty("--p", p.toFixed(3));
+}
+const heard = { key: "", from: 0, to: 0 };
+const credited = new Set(store.get(DAYKEY + ":heard", []));
+function listenAlong(L_, t) {
+  if (!S.ac || audio.paused || !L_ || L_.gap) { closeHeard(); return; }
+  const key = L_.i + ":" + L_.r;
+  if (heard.key !== key) { closeHeard(); heard.key = key; heard.from = t; }
+  heard.to = t;
+}
+function closeHeard() {
+  if (!heard.key) return;
+  const [i, r] = heard.key.split(":").map(Number), rep = TIM[i][r], dur = rep[1] - rep[0];
+  const covered = Math.min(heard.to, rep[1]) - Math.max(heard.from, rep[0]);
+  if (covered >= 0.7 * dur && !credited.has(heard.key) && (S.counts[i] || 0) < ITEMS[i].n) {
+    credited.add(heard.key); store.set(DAYKEY + ":heard", [...credited]); bump(i, 1, true);
+  }
+  heard.key = "";
+}
+audio.addEventListener("seeking", () => { heard.key = ""; });
+function tick() {
+  const t = nowT(), L_ = locate(t);
+  listenAlong(L_, t);
+  if (S.loop >= 0 && !audio.paused) {
+    const reps = TIM[S.loop], end = reps[reps.length - 1][1];
+    if (t > end + 0.5 || t < reps[0][0] - 2) { audio.currentTime = reps[0][0] - 0.15; }
+  }
+  if (!L_) { setLive(-1, -1); }
+  else {
+    setLive(L_.i, L_.r);
+    if (L_.gap) setWord(WORDS[L_.i].length, 0); else setWord(L_.w, L_.p);
+  }
+  drawSeek(t);
+  if (!audio.paused) { autoResume(); raf = requestAnimationFrame(tick); }
+}
+let raf = 0;
+
+/* follow mode: keep the active word in a comfortable reading band */
+let programmatic = 0, userScrollAt = 0, touching = false, wheelAt = 0;
+const RESUME_AFTER = 6000;   // follow mode resumes by itself after this long without touching the page
+const smooth = () => (matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth");
+const topSafe = () => $(".bar").offsetHeight + $(".rail").offsetHeight;
+function glide(y) { programmatic = Date.now(); scrollTo({ top: Math.max(0, y), behavior: smooth() }); }
+function follow(el, force) {
+  if (!el) return;
+  if (S.mode === "free" || (S.followHold && !force)) { pill(); return; }
+  const r = el.getBoundingClientRect(), vh = innerHeight, dockH = $("#dock").offsetHeight, top = topSafe();
+  const room = vh - dockH - top, band0 = top + room * 0.10, band1 = top + room * 0.66;
+  if (force || r.top < band0 || r.bottom > band1) glide(scrollY + r.top - (top + room * 0.32));
+  pill();
+}
+function followCard(i) {           /* a new dhikr began: bring its card (title + Arabic) into view */
+  if (S.mode !== "follow") return;
+  S.followHold = false;
+  const card = CARDS[i], r = card.getBoundingClientRect(), top = topSafe(), room = innerHeight - $("#dock").offsetHeight - top;
+  const ar = $(".ar", card).getBoundingClientRect();
+  if (r.top < top || ar.bottom > top + room || r.top > top + room * 0.5) glide(scrollY + r.top - top - 10);
+  pill();
+}
+function pill() {
+  const p = $("#pill");
+  if (S.live < 0 || audio.paused) { p.classList.remove("on"); return; }
+  if (S.mode === "follow" && S.followHold) { $("#pillText").textContent = T("backToFollow"); p.classList.add("on"); return; }
+  if (S.mode === "free") {
+    const r = CARDS[S.live].getBoundingClientRect();
+    const off = r.bottom < 120 || r.top > innerHeight - $("#dock").offsetHeight - 40;
+    $("#pillText").textContent = T("nowReading", { n: S.live + 1 });
+    p.classList.toggle("on", off); return;
+  }
+  p.classList.remove("on");
+}
+const inChrome = (t) => !!(t && t.closest && t.closest(".dock,.bar,.rail,.sheet,.pill,.scrim,details summary"));
+addEventListener("touchstart", (e) => { if (!inChrome(e.target)) touching = true; }, { passive: true });
+addEventListener("touchend", () => { if (touching) userScrollAt = Date.now(); touching = false; }, { passive: true });
+addEventListener("touchcancel", () => { touching = false; }, { passive: true });
+addEventListener("wheel", (e) => { if (!inChrome(e.target)) wheelAt = Date.now(); }, { passive: true });
+addEventListener("scroll", () => {
+  const now = Date.now(), byUser = touching || now - wheelAt < 400;
+  if (byUser && now - programmatic > 450) {
+    userScrollAt = now;
+    if (S.mode === "follow" && !audio.paused && !S.followHold) S.followHold = true;
+  }
+  pill();
+}, { passive: true });
+function autoResume() {             /* called every frame while playing */
+  if (S.mode === "follow" && S.followHold && !touching && Date.now() - userScrollAt > RESUME_AFTER) {
+    S.followHold = false;
+    const el = WORDS[S.live] && WORDS[S.live][Math.max(0, S.word)];
+    if (el) follow(el, true); else pill();
+  }
+}
+$("#pill").addEventListener("click", () => {
+  S.followHold = false;
+  const el = WORDS[S.live] && WORDS[S.live][Math.max(0, S.word)];
+  if (el) follow(el, true); else if (S.live >= 0) followCard(S.live);
+  pill();
+});
+
+/* ----------------------------------------------------------------- transport */
+let pendingT = null;
+function setTime(t) {
+  t = Math.max(0, t);
+  if (audio.readyState >= 1) { audio.currentTime = t; pendingT = null; }
+  else {
+    const first = pendingT === null; pendingT = t;
+    if (first) { audio.addEventListener("loadedmetadata", () => { if (pendingT !== null) audio.currentTime = pendingT; pendingT = null; tick(); }, { once: true }); audio.load(); }
+  }
+}
+const nowT = () => (pendingT !== null ? pendingT : audio.currentTime);
+function playFrom(t) {
+  setTime(t);
+  S.followHold = false;
+  audio.play().catch(() => {});
+  tick();
+}
+function seekItem(dir) {
+  const t = nowT(); const starts = ITEMS.map((_, i) => firstT(i)).filter((x) => x !== null);
+  if (dir > 0) { const nx = starts.find((s) => s > t + 0.5); if (nx !== undefined) playFrom(nx - 0.15); }
+  else { const pv = starts.filter((s) => s < t - 2.5).pop(); playFrom(pv !== undefined ? pv - 0.15 : 0); }
+}
+$("#playBtn").addEventListener("click", () => {
+  if (audio.paused) { if (audio.ended) audio.currentTime = 0; S.followHold = false; audio.play().catch(() => {}); }
+  else audio.pause();
+});
+$("#prevBtn").addEventListener("click", () => seekItem(-1));
+$("#nextBtn").addEventListener("click", () => seekItem(1));
+const RATES = [1, 1.25, 1.5, 0.75];
+function applyRate() { audio.playbackRate = S.rate; $("#speedBtn").textContent = String(S.rate).replace("0.", ".") + "×"; }
+$("#speedBtn").addEventListener("click", () => { S.rate = RATES[(RATES.indexOf(S.rate) + 1) % RATES.length]; store.set("azkor:rate", S.rate); applyRate(); });
+function applyMode() {
+  const f = S.mode === "follow";
+  $("#modeBtn").setAttribute("aria-pressed", String(f));
+  $("#modeIcon").setAttribute("href", f ? "#i-follow" : "#i-free");
+  $("#modeLbl").textContent = f ? T("follow") : T("free");
+  S.followHold = false; pill();
+}
+$("#modeBtn").addEventListener("click", () => {
+  S.mode = S.mode === "follow" ? "free" : "follow"; store.set("azkor:mode", S.mode); applyMode();
+  toast(S.mode === "follow" ? T("followOn") : T("freeOn"));
+  if (S.mode === "follow" && S.live >= 0) { const w = WORDS[S.live][Math.max(0, S.word)]; follow(w, true); }
+});
+audio.addEventListener("play", () => {
+  document.body.classList.remove("paused"); setPlayIcon(); cancelAnimationFrame(raf); wake(true);
+  S.followHold = false;
+  requestAnimationFrame(() => { tick(); if (S.mode === "follow" && S.live >= 0) { const w = WORDS[S.live][Math.max(0, S.word)]; if (S.word > 0 && w) follow(w, true); else followCard(S.live); } });
+});
+audio.addEventListener("pause", () => { document.body.classList.add("paused"); setPlayIcon(); wake(false); pill(); });
+audio.addEventListener("seeked", tick);
+audio.addEventListener("timeupdate", () => { if (audio.paused) tick(); });
+audio.addEventListener("loadedmetadata", drawTicks);
+const POSKEY = DAYKEY + ":pos";
+let lastSave = 0;
+let everPlayed = false;
+audio.addEventListener("playing", () => { everPlayed = true; });
+audio.addEventListener("timeupdate", () => { if (everPlayed && Date.now() - lastSave > 4000) { lastSave = Date.now(); store.set(POSKEY, audio.currentTime); } });
+audio.addEventListener("pause", () => { if (everPlayed) store.set(POSKEY, audio.currentTime); });
+function resume() { const p = store.get(POSKEY, 0); if (p > 3 && p < PAGE.duration - 5) { setTime(p); drawSeek(p); } }
+audio.addEventListener("ended", () => { setLive(-1, -1); });
+function setPlayIcon() { $("#playIcon").setAttribute("href", audio.paused ? "#i-play" : "#i-pause"); $("#playBtn").setAttribute("aria-label", audio.paused ? "Play" : "Pause"); }
+
+/* seek bar with a tick at the start of every dhikr */
+const DUR = () => audio.duration && isFinite(audio.duration) ? audio.duration : PAGE.duration;
+function drawTicks() {
+  $("#ticks").innerHTML = ITEMS.map((_, i) => firstT(i)).filter((t) => t !== null)
+    .map((t) => `<i class="tick" style="left:${(100 * t / DUR()).toFixed(2)}%"></i>`).join("");
+}
+function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ":" + String(t % 60).padStart(2, "0"); }
+function drawSeek(t) {
+  const p = 100 * t / DUR();
+  $("#fill").style.width = p + "%"; $("#knob").style.left = p + "%";
+  $("#nowTime").textContent = fmt(t) + " / " + fmt(DUR());
+  $("#seek").setAttribute("aria-valuenow", Math.round(p));
+}
+(function seekbar() {
+  const el = $("#seek"); let drag = false;
+  const at = (x) => { const r = el.getBoundingClientRect(); return Math.max(0, Math.min(1, (x - r.left) / r.width)) * DUR(); };
+  el.addEventListener("pointerdown", (e) => { drag = true; el.setPointerCapture(e.pointerId); setTime(at(e.clientX)); tick(); });
+  el.addEventListener("pointermove", (e) => { if (drag) { setTime(at(e.clientX)); tick(); } });
+  el.addEventListener("pointerup", () => { drag = false; S.followHold = false; });
+  el.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") audio.currentTime = Math.min(DUR(), audio.currentTime + 5);
+    if (e.key === "ArrowLeft") audio.currentTime = Math.max(0, audio.currentTime - 5);
+  });
+})();
+function updateNow() {
+  const i = S.live;
+  if (i < 0) { $("#nowT").textContent = T("reciter"); $("#nowRep").textContent = ""; return; }
+  $("#nowT").innerHTML = escS((i + 1) + ". " + tx(L(ITEMS[i]).t));
+  const reps = TIM[i].length; $("#nowRep").textContent = reps > 1 ? (S.rep + 1) + "/" + reps : "";
+}
+
+/* card actions */
+$("#list").addEventListener("click", (e) => {
+  const card = e.target.closest(".card"); if (!card) return; const i = +card.dataset.i;
+  const w = e.target.closest(".w");
+  if (w && TIM[i] && TIM[i].length) {
+    const r = S.live === i && S.rep >= 0 ? S.rep : 0, k = +w.dataset.w;
+    playFrom(TIM[i][r][2][2 * k] - 0.08); return;
+  }
+  const b = e.target.closest("[data-act]"); if (!b) return;
+  const a = b.dataset.act;
+  if (a === "count") bump(i, 1);
+  if (a === "reset") bump(i, 0);
+  if (a === "play") playFrom(firstT(i) - 0.15);
+  if (a === "loop") {
+    const on = S.loop !== i;
+    $$('[data-act="loop"]').forEach((x) => x.setAttribute("aria-pressed", "false"));
+    S.loop = on ? i : -1; b.setAttribute("aria-pressed", String(on));
+    toast(on ? T("loopOn", { n: i + 1 }) : T("loopOff"));
+    if (on && (S.live !== i || audio.paused)) playFrom(firstT(i) - 0.15);
+  }
+});
+$("#rail").addEventListener("click", (e) => {
+  const c = e.target.closest(".chip"); if (!c) return;
+  if (S.mode === "follow" && !audio.paused) { S.followHold = true; userScrollAt = Date.now(); }
+  programmatic = Date.now();
+  CARDS[+c.dataset.i].scrollIntoView({ block: "start", behavior: smooth() }); pill();
+});
+
+/* ----------------------------------------------------------------- lock screen / background */
+function mediaMeta() {
+  if (!("mediaSession" in navigator)) return;
+  const i = S.live, title = i >= 0 ? (i + 1) + ". " + tx(L(ITEMS[i]).t) : T(PAGE.id + "Title");
+  navigator.mediaSession.metadata = new MediaMetadata({ title, artist: T("reciterName"), album: T(PAGE.id + "Title"),
+    artwork: [{ src: "assets/icons/" + PAGE.id + "-512.png", sizes: "512x512", type: "image/png" }] });
+}
+if ("mediaSession" in navigator) {
+  const ms = navigator.mediaSession, set = (a, f) => { try { ms.setActionHandler(a, f); } catch (e) {} };
+  set("play", () => audio.play()); set("pause", () => audio.pause());
+  set("previoustrack", () => seekItem(-1)); set("nexttrack", () => seekItem(1));
+  set("seekbackward", (d) => { audio.currentTime -= d.seekOffset || 10; }); set("seekforward", (d) => { audio.currentTime += d.seekOffset || 10; });
+  set("seekto", (d) => { audio.currentTime = d.seekTime; });
+  mediaMeta();
+}
+let lock = null;
+async function wake(on) {
+  try {
+    if (on && "wakeLock" in navigator && !lock) { lock = await navigator.wakeLock.request("screen"); lock.addEventListener("release", () => (lock = null)); }
+    if (!on && lock) { await lock.release(); lock = null; }
+  } catch (e) {}
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && !audio.paused) wake(true); });
+
+/* ----------------------------------------------------------------- language, settings, theme */
+$$(".bar .seg button").forEach((b) => b.addEventListener("click", () => {
+  LANG = b.dataset.l; root.dataset.lang = LANG; root.lang = LANG === "ru" ? "ru" : LANG === "uzc" ? "uz-Cyrl" : "uz-Latn";
+  store.set("azkor:lang", LANG); try { localStorage.setItem("azkor:lang", LANG); } catch (e) {}
+  $("#manifestLink").href = "assets/" + PAGE.id + "-" + LANG + ".webmanifest";
+  $("#appTitle").content = PAGE.short[LANG];
+  const anchor = CARDS.find((c) => c.getBoundingClientRect().bottom > 130), off = anchor ? anchor.getBoundingClientRect().top : 0, id = anchor && anchor.id;
+  render(); applyMode(); mediaMeta();
+  if (id) { programmatic = Date.now(); scrollTo(0, scrollY + $("#" + id).getBoundingClientRect().top - off); }
+}));
+function openSheet(on) { $("#sheet").classList.toggle("on", on); $("#scrim").classList.toggle("on", on); }
+$("#openSettings").addEventListener("click", () => openSheet(true));
+$("#scrim").addEventListener("click", () => openSheet(false));
+addEventListener("keydown", (e) => { if (e.key === "Escape") openSheet(false); if (e.key === " " && e.target === document.body) { e.preventDefault(); $("#playBtn").click(); } });
+$$("#themeSeg button").forEach((b) => b.addEventListener("click", () => {
+  root.dataset.theme = b.dataset.t; try { localStorage.setItem("azkor:theme", b.dataset.t); } catch (e) {}
+  $$("#themeSeg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); themeColor();
+}));
+function themeColor() {
+  const dark = root.dataset.theme === "dark" || (root.dataset.theme === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+  $('meta[name="theme-color"]').content = dark ? "#0A1120" : PAGE.themeColor;
+}
+function applyScale() { root.style.setProperty("--arscale", S.scale); }
+$("#aMinus").addEventListener("click", () => { S.scale = Math.max(.8, +(S.scale - .1).toFixed(2)); store.set("azkor:scale", S.scale); applyScale(); });
+$("#aPlus").addEventListener("click", () => { S.scale = Math.min(1.6, +(S.scale + .1).toFixed(2)); store.set("azkor:scale", S.scale); applyScale(); });
+[["tTl", "tl", "no-tl", false], ["tMn", "mn", "no-mn", false], ["tHl", "hl", "nohl", false], ["tAc", "ac", "no-ac", false]].forEach(([id, k, cls]) => {
+  const el = $("#" + id); el.checked = S[k]; document.body.classList.toggle(cls, !S[k]);
+  el.addEventListener("change", () => { S[k] = el.checked; store.set("azkor:" + k, S[k]); document.body.classList.toggle(cls, !S[k]); });
+});
+$("#resetBtn").addEventListener("click", () => { S.counts = {}; store.set(DAYKEY, {}); ITEMS.forEach((_, i) => drawCount(i)); updateRing(); toast(T("resetDone")); });
+let toastT = 0;
+function toast(s) { const el = $("#toast"); el.textContent = s; el.classList.add("on"); clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove("on"), 1800); }
+
+/* time-of-day suggestion: morning page late in the day, or evening page early */
+function hintTime() {
+  const h = new Date().getHours(), wrong = PAGE.id === "sabah" ? h >= 15 && h < 24 : h >= 4 && h < 12;
+  const el = $("#switchHint"); el.classList.toggle("on", wrong);
+  if (wrong) el.innerHTML = `${esc(T(PAGE.other + "Now"))} — <a href="${PAGE.other}.html">${esc(T(PAGE.other + "Title"))}</a>`;
+}
+
+/* ----------------------------------------------------------------- offline + install */
+const isStandalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+const AUDIO_URL = new URL($("#audio").getAttribute("src"), location.href).href;
+async function offlineState() {
+  const b = $("#offBtn"); b.disabled = false;
+  try { const c = await caches.open("azkor-audio-v1"); b.textContent = (await c.match(AUDIO_URL)) ? T("offlineReady") : T("offlineGo"); }
+  catch (e) { b.textContent = T("offlineGo"); }
+}
+$("#offBtn").addEventListener("click", async () => {
+  const b = $("#offBtn");
+  try {
+    const c = await caches.open("azkor-audio-v1");
+    if (await c.match(AUDIO_URL)) { toast(T("offlineReady")); return; }
+    b.disabled = true;
+    const res = await fetch(AUDIO_URL); const total = +res.headers.get("content-length") || PAGE.audioBytes;
+    const rd = res.body.getReader(); const parts = []; let got = 0;
+    for (;;) { const { done, value } = await rd.read(); if (done) break; parts.push(value); got += value.length; b.textContent = T("offlineProg", { p: Math.round(100 * got / total) }); }
+    await c.put(AUDIO_URL, new Response(new Blob(parts, { type: "audio/mp4" }), { headers: { "Content-Type": "audio/mp4", "Content-Length": String(got) } }));
+    if (navigator.storage && navigator.storage.persist) navigator.storage.persist();
+    toast(T("offlineReady"));
+  } catch (e) { toast(T("offlineFail")); }
+  offlineState();
+});
+let deferredPrompt = null;
+addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); deferredPrompt = e; installBanner(); });
+function installHelp() {
+  if (deferredPrompt) { deferredPrompt.prompt(); deferredPrompt.userChoice.finally(() => (deferredPrompt = null)); return; }
+  toast(/iphone|ipad|ipod/i.test(navigator.userAgent) ? T("installIOS") : T("installAndroid"));
+}
+$("#instBtn").addEventListener("click", installHelp);
+function installBanner() {
+  if (isStandalone() || store.get("azkor:installX", false)) return;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  if (!ios && !deferredPrompt) return;
+  $("#installText").textContent = ios ? T("installIOS") : T("installPitch");
+  $("#installGo").hidden = ios; $("#installGo").textContent = T("installBtn");
+  $("#installBox").classList.add("on");
+}
+$("#installGo").addEventListener("click", installHelp);
+$("#installX").addEventListener("click", () => { $("#installBox").classList.remove("on"); store.set("azkor:installX", true); });
+if ("serviceWorker" in navigator && (location.protocol === "https:" || /^(localhost|127\.0\.0\.1)$/.test(location.hostname))) navigator.serviceWorker.register("sw.js").catch(() => {});
+
+/* ----------------------------------------------------------------- start */
+(function stars() {
+  if (PAGE.id !== "masa") return;
+  $("#stars").innerHTML = [[8, 14], [21, 30], [33, 9], [47, 22], [62, 12], [74, 28], [88, 10], [15, 52], [92, 44]]
+    .map(([x, y]) => `<i style="left:${x}%;top:${y}%"></i>`).join("");
+})();
+render(); applyMode(); applyRate(); applyScale(); themeColor(); drawTicks(); drawSeek(0); resume(); installBanner();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", themeColor);
+if (location.hash && /^#z\d+$/.test(location.hash)) setTimeout(() => { const c = $(location.hash); if (c) c.scrollIntoView(); }, 50);
+</script>
+</body>
+</html>

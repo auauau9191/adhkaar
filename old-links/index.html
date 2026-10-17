@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>Azkorlar · Азкары</title>
+<meta property="og:title" content="Ertalabki va kechki azkorlar · Утренние и вечерние азкары">
+<meta property="og:image" content="assets/og-sabah.png"><meta name="twitter:card" content="summary_large_image">
+<script>
+/* Opens the morning page from 03:00 to 14:59 and the evening page otherwise, keeping the saved language. */
+var h=new Date().getHours(), p=(h>=3&&h<15)?"sabah.html":"masa.html", l="";
+try{l=localStorage.getItem("azkor:lang")||""}catch(e){}
+location.replace(p+(l?"":"?lang=uz"));
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=sabah.html"></noscript>
+</head><body><a href="sabah.html">Ertalabki azkorlar</a> · <a href="masa.html">Kechki azkorlar</a></body></html>
