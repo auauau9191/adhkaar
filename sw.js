@@ -1,8 +1,8 @@
-/* Azkor offline worker — version 31fc89bcd2
+/* Azkor offline worker — version 9dad08c165
    - pages, fonts, icons: precached; pages are network-first so updates arrive, cache when offline
    - audio: served from the "azkor-audio-v1" cache once the user taps "Download", with Range support
      (iPhone Safari always requests audio in byte ranges)                                        */
-const CORE = "azkor-core-31fc89bcd2";
+const CORE = "azkor-core-9dad08c165";
 const AUDIO = "azkor-audio-v1";
 const FILES = [
  "sabah.html",

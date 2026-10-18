@@ -5,9 +5,9 @@
 <meta property="og:image" content="https://auauau9191.github.io/adhkaar/assets/og-sabah.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/icons/sabah-64.png">
 <script>
-/* Bare address: morning page 03:00–14:59, evening page otherwise. Keeps ?lang=… if given. */
-var h=new Date().getHours();
-location.replace(((h>=3&&h<15)?"sabah.html":"masa.html")+location.search);
+/* Bare address: morning page 03:00–13:00, evening page 13:01–02:59 (phone's own clock). Keeps ?lang=… if given. */
+var d=new Date(), m=d.getHours()*60+d.getMinutes();
+location.replace(((m>=180&&m<=780)?"sabah.html":"masa.html")+location.search);
 </script>
 <noscript><meta http-equiv="refresh" content="0; url=sabah.html"></noscript>
 </head><body><a href="sabah.html">Ertalabki azkorlar · Утренние азкары</a><br><a href="masa.html">Kechki azkorlar · Вечерние азкары</a></body></html>

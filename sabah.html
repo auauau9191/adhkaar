@@ -928,7 +928,8 @@ function toast(s) { const el = $("#toast"); el.textContent = s; el.classList.add
 
 /* time-of-day suggestion: morning page late in the day, or evening page early */
 function hintTime() {
-  const h = new Date().getHours(), wrong = PAGE.id === "sabah" ? h >= 15 && h < 24 : h >= 4 && h < 12;
+  const d = new Date(), m = d.getHours() * 60 + d.getMinutes(), morning = m >= 180 && m <= 780; /* 03:00–13:00 */
+  const wrong = PAGE.id === "sabah" ? !morning : morning;
   const el = $("#switchHint"); el.classList.toggle("on", wrong);
   if (wrong) el.innerHTML = `${esc(T(PAGE.other + "Now"))} — <a href="${PAGE.other}.html">${esc(T(PAGE.other + "Title"))}</a>`;
 }
