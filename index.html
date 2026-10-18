@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Azkorlar · Азкары</title>
+<meta property="og:title" content="Ertalabki va kechki azkorlar · Утренние и вечерние азкары">
+<meta property="og:url" content="https://auauau9191.github.io/adhkaar/">
+<meta property="og:image" content="https://auauau9191.github.io/adhkaar/assets/og-sabah.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icons/sabah-64.png">
+<script>
+/* Bare address: morning page 03:00–14:59, evening page otherwise. Keeps ?lang=… if given. */
+var h=new Date().getHours();
+location.replace(((h>=3&&h<15)?"sabah.html":"masa.html")+location.search);
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=sabah.html"></noscript>
+</head><body><a href="sabah.html">Ertalabki azkorlar · Утренние азкары</a><br><a href="masa.html">Kechki azkorlar · Вечерние азкары</a></body></html>
